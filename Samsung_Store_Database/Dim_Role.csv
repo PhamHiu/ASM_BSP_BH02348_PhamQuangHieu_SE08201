@@ -1,0 +1,6 @@
+RoleID,RoleName,Description
+1,Admin,Full system access
+2,Manager,Store manager with reporting access
+3,Sales Staff,Create sales orders and manage customers
+4,Warehouse,Manage stock and purchase orders
+5,Analyst,Read-only access for BI and reports
