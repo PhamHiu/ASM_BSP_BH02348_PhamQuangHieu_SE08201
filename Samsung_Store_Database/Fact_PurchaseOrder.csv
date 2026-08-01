@@ -1,0 +1,36 @@
+PurchaseOrderID,SupplierID,UserID,PurchaseDate,PaymentMethod,TotalAmount,Status
+1,4,5,2024-04-08,Credit Card,1496500000,Completed
+2,3,5,2023-08-13,Cash,261760000,Completed
+3,3,5,2023-02-18,Credit Card,877750000,Completed
+4,5,5,2024-08-18,Bank Transfer,1088200000,Completed
+5,1,5,2023-10-16,Cash,3144000000,Completed
+6,1,5,2024-07-04,Credit Card,1476000000,Completed
+7,5,5,2023-12-03,Bank Transfer,457000000,Completed
+8,1,5,2024-08-07,Credit Card,2517500000,Completed
+9,3,5,2023-09-14,Credit Card,779690000,Completed
+10,2,5,2023-04-08,Bank Transfer,506600000,Completed
+11,4,5,2024-02-03,Cash,2144500000,Completed
+12,5,5,2024-10-22,Cash,942000000,Completed
+13,1,5,2024-05-31,Bank Transfer,3139000000,Completed
+14,5,5,2024-09-09,Cash,1050200000,Completed
+15,2,5,2023-04-02,Credit Card,801000000,Completed
+16,2,5,2024-06-28,Credit Card,1409500000,Completed
+17,3,5,2024-06-17,Cash,84750000,Completed
+18,1,5,2024-08-29,Bank Transfer,787000000,Completed
+19,1,5,2023-03-18,Credit Card,1753000000,Completed
+20,2,5,2023-09-10,Cash,1164500000,Completed
+21,4,5,2024-04-27,Credit Card,284500000,Completed
+22,1,5,2023-12-18,Bank Transfer,1495000000,Completed
+23,2,5,2023-07-11,Cash,457100000,Completed
+24,5,5,2023-04-10,Bank Transfer,927000000,Completed
+25,4,5,2023-06-22,Cash,930000000,Completed
+26,4,5,2024-03-13,Credit Card,567500000,Completed
+27,5,5,2023-11-22,Bank Transfer,1152000000,Completed
+28,2,5,2024-06-08,Bank Transfer,505500000,Completed
+29,4,5,2024-08-10,Bank Transfer,1690750000,Completed
+30,5,5,2023-09-29,Bank Transfer,4255000000,Completed
+31,4,5,2023-03-20,Bank Transfer,635000000,Completed
+32,5,5,2023-05-20,Cash,1780000000,Completed
+33,4,5,2024-09-22,Credit Card,1594000000,Completed
+34,1,5,2024-07-24,Bank Transfer,1859500000,Completed
+35,3,5,2023-09-19,Bank Transfer,182160000,Completed
