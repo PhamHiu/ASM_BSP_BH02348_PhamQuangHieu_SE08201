@@ -1,0 +1,60 @@
+ComponentID,ComponentName,ComponentCategory,UnitCost,SupplierID,Unit,Status
+1,AMOLED Display Panel 6.2in,Display,2800000,1,piece,Active
+2,AMOLED Display Panel 6.7in,Display,3400000,1,piece,Active
+3,AMOLED Display Panel 6.9in,Display,4200000,1,piece,Active
+4,Foldable AMOLED Main Display 7.6in,Display,9500000,1,piece,Active
+5,Foldable Cover Display 3.4in,Display,3200000,1,piece,Active
+6,AMOLED Tablet Display 12.4in,Display,4600000,1,piece,Active
+7,AMOLED Tablet Display 14.6in,Display,6200000,1,piece,Active
+8,LCD Tablet Display 11in,Display,1800000,1,piece,Active
+9,Laptop AMOLED Display 16in,Display,5800000,1,piece,Active
+10,Laptop AMOLED Touch Display 13.3in,Display,4900000,1,piece,Active
+11,Neo QLED Panel 65in 8K,Display,22000000,1,piece,Active
+12,QLED Panel 55in 4K,Display,5200000,1,piece,Active
+13,Crystal Display Panel 43in 4K,Display,2400000,1,piece,Active
+14,Li-Po Battery 5000mAh,Battery,320000,2,piece,Active
+15,Li-Po Battery 4000mAh,Battery,260000,2,piece,Active
+16,Li-Po Battery 4900mAh Dual-Cell (Foldable),Battery,480000,2,piece,Active
+17,Smartwatch Battery 300mAh,Battery,90000,2,piece,Active
+18,Laptop Battery Pack 76Wh,Battery,950000,2,piece,Active
+19,200MP Camera Module,Camera,2200000,3,piece,Active
+20,50MP Wide Camera Module,Camera,850000,3,piece,Active
+21,12MP Ultra-wide Camera Module,Camera,420000,3,piece,Active
+22,10MP Front Camera Module,Camera,350000,3,piece,Active
+23,PCB Mainboard (Mobile),PCB,1600000,3,piece,Active
+24,MLCC & Passive Components Kit,PCB,,3,piece,Active
+25,Fingerprint Sensor Module,Sensor,210000,3,piece,Active
+26,Heart Rate & SpO2 Sensor Module,Sensor,260000,3,piece,Active
+27,LPDDR5X RAM 8GB,Memory,900000,4,piece,Active
+28,LPDDR5X RAM 12GB,Memory,1300000,4,piece,Active
+29,UFS 4.0 Storage 256GB,Memory,1100000,4,piece,Active
+30,UFS 4.0 Storage 512GB,Memory,1900000,4,piece,Active
+31,Snapdragon 8 Elite Chipset,Chipset,4500000,5,piece,Active
+32,Snapdragon 7 Gen3 Chipset,Chipset,1800000,5,piece,Active
+33,Wear OS Chipset,Chipset,650000,5,piece,Active
+34,Bluetooth Audio Chip,Chipset,180000,5,piece,Active
+35,Intel Core Ultra 7 CPU,Chipset,5600000,6,piece,Active
+36,Aluminum Frame Chassis,Chassis,900000,7,piece,Active
+37,Titanium Frame Chassis,Chassis,1800000,7,piece,Active
+38,Hinge Module (Foldable),Chassis,2600000,8,piece,Active
+39,S Pen Module,Accessory Component,380000,7,piece,Active
+40,Laptop Keyboard Assembly,Chassis,850000,7,piece,Active
+41,TPU Case Shell,Accessory Component,35000,10,piece,Active
+42,USB-C Cable Assembly 1m,Accessory Component,28000,10,piece,Active
+43,Charging IC Module 45W,Accessory Component,95000,10,piece,Active
+44,USB-C Charging Port Module,Accessory Component,60000,10,piece,Active
+45,ANC Driver Unit (Earbuds),Audio,320000,3,piece,Active 
+46,Soundbar Speaker Driver Array (11.1.4ch),Audio,4200000,3,piece,Active
+47,Dolby Atmos Processor Module,Audio,1600000,3,piece,Active
+48,Compressor Unit (Fridge),Appliance,3800000,9,piece,Active
+49,Refrigerant Cooling System Kit,Appliance,2200000,9,piece,Active
+50,Direct Drive Motor (Washer),Appliance,2600000,9,piece,Active
+51,Washer Drum Assembly,Appliance,1800000,9,piece,Active
+52,Retail Packaging Box (Standard),Packaging,15000,10,piece,Active
+53,Retail Packaging Box (Premium),Packaging,35000,10,piece,Active
+54,AMOLED Display Panel 6.6in (Budget Tier),Display,1400000,1,piece,Active
+55,LPDDR5X RAM 6GB,Memory,550000,4,piece,Active
+56,UFS 3.1 Storage 128GB (Budget Tier),Memory,550000,4,piece,Active
+57,Polycarbonate Frame Chassis,Chassis,320000,7,piece,Active
+58,Entry-Tier Mobile Chipset,Chipset,700000,5,piece,Active
+59,PCB Mainboard (Entry Tier),PCB,700000,3,piece,Active

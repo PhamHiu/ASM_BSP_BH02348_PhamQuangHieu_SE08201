@@ -1,0 +1,1912 @@
+OrderID,CustomerID,UserID,OrderDate,PaymentMethod,TotalAmount,Status
+1,7,4,2023-01-13,Cash,18990000,Completed
+2,17,3,2023-01-13,ZaloPay,27980000,Completed
+3,7,7,2023-01-19,MoMo,45960000,Completed
+4,17,3,2023-01-23,Credit Card,20990000,Completed
+5,7,7,2023-01-14,ZaloPay,12970000,Completed
+6,12,4,2023-01-02,Cash,51140000,Completed
+7,6,3,2023-01-22,Cash,49980000,Completed
+8,30,8,2023-01-03,Bank Transfer,16990000,Completed
+9,5,8,2023-01-11,Cash,30480000,Completed
+10,27,4,2023-01-13,Credit Card,62960000,Completed
+11,24,4,2023-01-25,Bank Transfer,10990000,Completed
+12,6,4,2023-01-10,Credit Card,57470000,Completed
+13,27,7,2023-01-28,Cash,7490000,Completed
+14,2,7,2023-01-27,Cash,7490000,Completed
+15,12,3,2023-01-27,Cash,47980000,Completed
+16,25,8,2023-01-13,Cash,44750000,Completed
+17,25,4,2023-01-07,Credit Card,37980000,Completed
+18,30,7,2023-01-14,Cash,49980000,Completed
+19,16,4,2023-01-26,ZaloPay,7490000,Completed
+20,27,4,2023-01-22,Credit Card,58970000,Completed
+21,29,4,2023-01-11,Credit Card,46460000,Completed
+22,22,4,2023-01-22,MoMo,27980000,Completed
+23,23,4,2023-01-28,Credit Card,60470000,Completed
+24,22,4,2023-01-10,Credit Card,69360000,Completed
+25,20,7,2023-01-21,Cash,21980000,Completed
+26,19,3,2023-01-03,ZaloPay,71970000,Completed
+27,23,7,2023-01-21,Cash,7490000,Completed
+28,9,8,2023-01-06,Credit Card,51450000,Completed
+29,7,7,2023-01-09,Credit Card,80950000,Completed
+30,29,8,2023-01-21,Bank Transfer,60960000,Completed
+31,1,7,2023-01-24,Bank Transfer,34980000,Completed
+32,2,3,2023-02-13,Credit Card,490000,Completed
+33,15,3,2023-02-27,Bank Transfer,23990000,Completed
+34,9,7,2023-02-06,Bank Transfer,47980000,Completed
+35,23,7,2023-02-06,Bank Transfer,44370000,Completed
+36,3,3,2023-02-18,MoMo,127960000,Completed
+37,20,4,2023-02-20,Credit Card,65980000,Completed
+38,7,7,2023-02-14,Cash,4990000,Completed
+39,24,3,2023-02-17,Cash,208950000,Completed
+40,29,4,2023-02-03,MoMo,29470000,Completed
+41,10,4,2023-02-01,Cash,14980000,Completed
+42,10,3,2023-02-10,Credit Card,86970000,Completed
+43,26,3,2023-02-11,Credit Card,28990000,Completed
+44,22,3,2023-02-23,MoMo,29360000,Completed
+45,14,3,2023-02-17,Cash,109980000,Completed
+46,27,4,2023-02-01,Cash,87440000,Completed
+47,17,8,2023-02-02,ZaloPay,227950000,Completed
+48,6,4,2023-02-17,Bank Transfer,25980000,Completed
+49,20,4,2023-02-14,ZaloPay,9980000,Completed
+50,6,7,2023-02-08,Cash,26980000,Completed
+51,22,8,2023-02-08,Credit Card,49980000,Completed
+52,7,3,2023-02-16,MoMo,22990000,Completed
+53,7,3,2023-02-11,Bank Transfer,24990000,Completed
+54,17,7,2023-02-19,Cash,39990000,Completed
+55,10,7,2023-03-23,Cash,27990000,Completed
+56,20,3,2023-03-05,MoMo,47980000,Completed
+57,8,4,2023-03-13,MoMo,39990000,Completed
+58,20,7,2023-03-11,MoMo,27990000,Completed
+59,14,3,2023-03-22,Bank Transfer,109930000,Completed
+60,12,3,2023-03-23,Credit Card,22990000,Completed
+61,20,3,2023-03-11,Credit Card,16990000,Completed
+62,22,8,2023-03-15,Credit Card,60970000,Completed
+63,10,8,2023-03-01,MoMo,49950000,Completed
+64,20,3,2023-03-08,ZaloPay,23990000,Completed
+65,15,8,2023-03-09,Credit Card,40980000,Completed
+66,28,8,2023-03-05,Cash,192960000,Completed
+67,21,3,2023-03-22,Cash,7490000,Completed
+68,27,7,2023-03-05,ZaloPay,36960000,Completed
+69,21,3,2023-03-13,Cash,28870000,Completed
+70,20,3,2023-03-24,Credit Card,7490000,Completed
+71,28,7,2023-03-07,MoMo,20990000,Completed
+72,10,4,2023-03-15,Cash,31980000,Completed
+73,8,8,2023-03-03,MoMo,66370000,Completed
+74,3,3,2023-03-26,Credit Card,10990000,Completed
+75,28,3,2023-03-07,MoMo,10990000,Completed
+76,23,7,2023-03-09,Cash,31480000,Completed
+77,27,4,2023-03-01,Credit Card,22990000,Completed
+78,16,7,2023-03-09,Cash,12990000,Completed
+79,22,4,2023-03-18,MoMo,27470000,Completed
+80,18,4,2023-03-12,Bank Transfer,59470000,Completed
+81,2,3,2023-03-14,Credit Card,119450000,Completed
+82,10,3,2023-03-18,Bank Transfer,23990000,Completed
+83,6,3,2023-03-02,Credit Card,23990000,Completed
+84,21,8,2023-04-19,Credit Card,41460000,Completed
+85,13,7,2023-04-12,Bank Transfer,125940000,Completed
+86,14,4,2023-04-09,Cash,49450000,Completed
+87,17,7,2023-04-18,Cash,23990000,Completed
+88,14,8,2023-04-10,Cash,74450000,Completed
+89,5,8,2023-04-02,MoMo,23990000,Completed
+90,21,7,2023-04-05,MoMo,41980000,Completed
+91,30,3,2023-04-24,Credit Card,10470000,Completed
+92,24,3,2023-04-07,Bank Transfer,7490000,Completed
+93,28,8,2023-04-05,Credit Card,1370000,Completed
+94,2,4,2023-04-21,Bank Transfer,22460000,Completed
+95,30,3,2023-04-23,MoMo,71970000,Completed
+96,9,4,2023-04-22,Credit Card,18990000,Completed
+97,24,7,2023-04-14,ZaloPay,27990000,Completed
+98,1,7,2023-04-25,Cash,80970000,Completed
+99,12,8,2023-04-13,Cash,39990000,Completed
+100,15,8,2023-04-18,Credit Card,40870000,Completed
+101,2,8,2023-04-20,Bank Transfer,52970000,Completed
+102,11,8,2023-04-13,Credit Card,47980000,Completed
+103,8,4,2023-04-03,MoMo,57980000,Completed
+104,11,3,2023-04-08,Cash,26480000,Completed
+105,15,7,2023-04-09,Credit Card,103930000,Completed
+106,30,4,2023-04-20,Credit Card,25470000,Completed
+107,15,4,2023-04-15,Credit Card,24480000,Completed
+108,4,8,2023-04-25,Cash,53970000,Completed
+109,27,3,2023-04-11,Bank Transfer,21980000,Completed
+110,14,3,2023-04-18,Cash,88950000,Completed
+111,1,7,2023-04-09,Bank Transfer,45980000,Completed
+112,7,4,2023-04-02,ZaloPay,55460000,Completed
+113,8,7,2023-04-11,Cash,39990000,Completed
+114,27,4,2023-04-02,MoMo,14980000,Completed
+115,12,7,2023-04-27,Cash,40480000,Completed
+116,16,3,2023-04-21,Credit Card,16990000,Completed
+117,30,3,2023-04-04,ZaloPay,73960000,Completed
+118,12,7,2023-04-06,Credit Card,62970000,Completed
+119,6,4,2023-05-13,Bank Transfer,86960000,Completed
+120,12,8,2023-05-04,MoMo,84460000,Completed
+121,11,7,2023-05-28,Cash,780000,Completed
+122,29,3,2023-05-06,Bank Transfer,22470000,Completed
+123,5,3,2023-05-16,Cash,111970000,Completed
+124,8,7,2023-05-02,Credit Card,16990000,Completed
+125,6,3,2023-05-18,Bank Transfer,37980000,Completed
+126,27,4,2023-05-20,Cash,2990000,Completed
+127,28,4,2023-05-14,Credit Card,490000,Completed
+128,23,4,2023-05-02,MoMo,59750000,Completed
+129,28,8,2023-05-28,Cash,27990000,Completed
+130,3,3,2023-05-04,Cash,65970000,Completed
+131,20,3,2023-05-13,Credit Card,2990000,Completed
+132,12,4,2023-05-03,Bank Transfer,24480000,Completed
+133,2,7,2023-05-07,Bank Transfer,4990000,Completed
+134,18,8,2023-05-28,Bank Transfer,39990000,Completed
+135,26,4,2023-05-04,Cash,27980000,Completed
+136,30,7,2023-05-19,Cash,5980000,Completed
+137,1,8,2023-05-18,Bank Transfer,41980000,Completed
+138,17,8,2023-05-09,Cash,76960000,Completed
+139,25,4,2023-05-16,MoMo,27970000,Completed
+140,6,4,2023-05-03,MoMo,72980000,Completed
+141,1,7,2023-05-26,Credit Card,39980000,Completed
+142,24,7,2023-05-17,Credit Card,23440000,Completed
+143,12,4,2023-05-11,Cash,28990000,Completed
+144,4,8,2023-05-19,Bank Transfer,20990000,Completed
+145,28,4,2023-05-15,Cash,28480000,Completed
+146,12,3,2023-05-28,MoMo,8490000,Completed
+147,18,3,2023-05-09,Cash,86980000,Completed
+148,27,3,2023-05-05,MoMo,10990000,Completed
+149,10,8,2023-05-14,MoMo,61360000,Completed
+150,12,4,2023-05-20,Credit Card,24990000,Completed
+151,26,4,2023-05-04,Bank Transfer,163970000,Completed
+152,2,7,2023-05-26,Cash,26370000,Completed
+153,6,8,2023-05-13,Bank Transfer,69990000,Completed
+154,26,3,2023-05-10,Cash,65980000,Completed
+155,8,3,2023-05-05,Cash,7490000,Completed
+156,24,7,2023-06-26,Bank Transfer,50370000,Completed
+157,15,8,2023-06-14,Credit Card,7490000,Completed
+158,17,3,2023-06-20,Cash,79970000,Completed
+159,2,4,2023-06-18,ZaloPay,7490000,Completed
+160,7,4,2023-06-01,Cash,47480000,Completed
+161,21,7,2023-06-13,Bank Transfer,84970000,Completed
+162,18,8,2023-06-14,ZaloPay,69470000,Completed
+163,16,7,2023-06-08,Credit Card,64960000,Completed
+164,3,3,2023-06-01,Credit Card,53950000,Completed
+165,6,4,2023-06-16,MoMo,63470000,Completed
+166,19,8,2023-06-19,Cash,23980000,Completed
+167,25,8,2023-06-23,Credit Card,10990000,Completed
+168,20,4,2023-06-23,Cash,43970000,Completed
+169,5,4,2023-06-24,Cash,9980000,Completed
+170,15,7,2023-06-13,Cash,14980000,Completed
+171,2,7,2023-06-26,Cash,73970000,Completed
+172,26,8,2023-06-14,Bank Transfer,29870000,Completed
+173,25,3,2023-06-05,MoMo,53470000,Completed
+174,5,3,2023-06-09,Cash,10990000,Completed
+175,28,8,2023-06-20,Credit Card,21980000,Completed
+176,8,4,2023-06-15,Bank Transfer,70960000,Completed
+177,3,4,2023-06-14,MoMo,103440000,Completed
+178,16,3,2023-06-25,Bank Transfer,22990000,Completed
+179,12,8,2023-06-08,Credit Card,22860000,Completed
+180,10,8,2023-06-11,MoMo,69990000,Completed
+181,9,4,2023-06-13,Credit Card,78480000,Completed
+182,11,4,2023-06-19,Cash,63980000,Completed
+183,1,7,2023-06-26,Cash,41980000,Completed
+184,18,4,2023-06-07,MoMo,69990000,Completed
+185,8,3,2023-06-22,Credit Card,390000,Completed
+186,22,3,2023-06-20,ZaloPay,126960000,Completed
+187,20,4,2023-06-27,Credit Card,43470000,Completed
+188,26,7,2023-06-25,Credit Card,65960000,Completed
+189,7,8,2023-06-12,MoMo,39460000,Completed
+190,22,4,2023-06-14,MoMo,73450000,Completed
+191,2,3,2023-06-08,Bank Transfer,41980000,Completed
+192,16,4,2023-06-11,Bank Transfer,41980000,Completed
+193,19,8,2023-06-11,Cash,79980000,Completed
+194,18,4,2023-06-07,Bank Transfer,23990000,Completed
+195,7,7,2023-06-17,Cash,980000,Completed
+196,12,7,2023-06-01,Credit Card,2990000,Completed
+197,13,4,2023-06-10,Credit Card,23990000,Completed
+198,21,3,2023-06-13,Credit Card,47980000,Completed
+199,6,8,2023-07-05,Credit Card,39990000,Completed
+200,11,8,2023-07-13,Bank Transfer,107970000,Completed
+201,5,8,2023-07-22,MoMo,4990000,Completed
+202,1,7,2023-07-04,Cash,134960000,Completed
+203,21,4,2023-07-18,Credit Card,4990000,Completed
+204,22,3,2023-07-05,MoMo,20990000,Completed
+205,2,8,2023-07-03,Cash,18990000,Completed
+206,29,4,2023-07-23,Bank Transfer,21770000,Completed
+207,23,3,2023-07-09,Cash,56960000,Completed
+208,15,3,2023-07-06,Cash,79980000,Completed
+209,29,8,2023-07-25,Credit Card,124960000,Completed
+210,20,3,2023-07-26,MoMo,41470000,Completed
+211,12,7,2023-07-05,Credit Card,29980000,Completed
+212,9,4,2023-07-23,Bank Transfer,20990000,Completed
+213,17,3,2023-07-24,Cash,14980000,Completed
+214,13,4,2023-07-01,Credit Card,23990000,Completed
+215,14,8,2023-07-10,Credit Card,52980000,Completed
+216,8,4,2023-07-10,Bank Transfer,12970000,Completed
+217,26,7,2023-07-17,Cash,58470000,Completed
+218,24,4,2023-07-25,Credit Card,23990000,Completed
+219,24,4,2023-07-21,Credit Card,41970000,Completed
+220,26,4,2023-07-14,Bank Transfer,62460000,Completed
+221,9,3,2023-07-28,Bank Transfer,8470000,Completed
+222,26,4,2023-07-28,Credit Card,42970000,Completed
+223,4,4,2023-07-05,Bank Transfer,28970000,Completed
+224,12,8,2023-07-12,Cash,61760000,Completed
+225,28,4,2023-07-14,Credit Card,41980000,Completed
+226,5,3,2023-07-03,Cash,49970000,Completed
+227,21,7,2023-07-25,MoMo,60470000,Completed
+228,20,8,2023-07-16,Cash,74980000,Completed
+229,21,7,2023-07-22,MoMo,10990000,Completed
+230,26,8,2023-07-15,MoMo,85360000,Completed
+231,13,3,2023-07-27,Credit Card,83960000,Completed
+232,1,4,2023-07-11,MoMo,49960000,Completed
+233,14,8,2023-07-11,MoMo,28980000,Completed
+234,30,7,2023-07-02,MoMo,25970000,Completed
+235,29,4,2023-07-09,ZaloPay,16990000,Completed
+236,15,7,2023-07-04,Cash,29970000,Completed
+237,12,8,2023-07-28,Cash,4990000,Completed
+238,19,7,2023-07-06,Bank Transfer,56970000,Completed
+239,6,4,2023-07-18,Credit Card,390000,Completed
+240,15,3,2023-07-09,Cash,71960000,Completed
+241,8,3,2023-08-22,Credit Card,40480000,Completed
+242,27,3,2023-08-04,Credit Card,58970000,Completed
+243,10,4,2023-08-01,ZaloPay,49450000,Completed
+244,12,4,2023-08-27,MoMo,51970000,Completed
+245,4,3,2023-08-07,Credit Card,65980000,Completed
+246,24,7,2023-08-06,Bank Transfer,7490000,Completed
+247,22,3,2023-08-20,Cash,23990000,Completed
+248,12,4,2023-08-22,Bank Transfer,34980000,Completed
+249,16,7,2023-08-27,Credit Card,9980000,Completed
+250,15,7,2023-08-14,Bank Transfer,47980000,Completed
+251,9,8,2023-08-08,Cash,4990000,Completed
+252,16,4,2023-08-05,Credit Card,4990000,Completed
+253,12,8,2023-08-09,MoMo,98940000,Completed
+254,13,8,2023-08-18,Bank Transfer,20970000,Completed
+255,4,3,2023-08-10,Credit Card,46850000,Completed
+256,6,7,2023-08-19,Cash,82960000,Completed
+257,1,4,2023-08-08,Bank Transfer,139980000,Completed
+258,12,7,2023-08-28,Credit Card,42980000,Completed
+259,26,8,2023-08-26,Credit Card,13990000,Completed
+260,9,7,2023-08-02,Cash,2990000,Completed
+261,6,3,2023-08-12,Credit Card,39990000,Completed
+262,27,3,2023-08-13,Cash,51460000,Completed
+263,10,8,2023-08-28,Credit Card,51960000,Completed
+264,17,4,2023-08-08,Credit Card,18250000,Completed
+265,17,8,2023-08-25,Credit Card,20990000,Completed
+266,25,3,2023-08-13,ZaloPay,52980000,Completed
+267,15,8,2023-08-07,Bank Transfer,28480000,Completed
+268,26,4,2023-08-03,Cash,32480000,Completed
+269,20,7,2023-08-24,Cash,103960000,Completed
+270,29,4,2023-08-21,Bank Transfer,125960000,Completed
+271,18,3,2023-08-21,Bank Transfer,14980000,Completed
+272,30,7,2023-08-18,Bank Transfer,13990000,Completed
+273,7,3,2023-08-23,Bank Transfer,55980000,Completed
+274,4,8,2023-08-27,MoMo,16990000,Completed
+275,3,3,2023-08-03,Cash,16990000,Completed
+276,29,8,2023-08-09,MoMo,64470000,Completed
+277,2,3,2023-08-28,Cash,52970000,Completed
+278,15,4,2023-08-23,Cash,12990000,Completed
+279,8,8,2023-08-03,Credit Card,56980000,Completed
+280,5,3,2023-08-22,Cash,23990000,Completed
+281,13,7,2023-09-19,Bank Transfer,46460000,Completed
+282,15,3,2023-09-07,ZaloPay,18990000,Completed
+283,27,4,2023-09-05,MoMo,22990000,Completed
+284,10,8,2023-09-03,Credit Card,82970000,Completed
+285,23,3,2023-09-04,Bank Transfer,23990000,Completed
+286,7,3,2023-09-27,Credit Card,47980000,Completed
+287,29,7,2023-09-27,Bank Transfer,93970000,Completed
+288,14,3,2023-09-23,Bank Transfer,62960000,Completed
+289,26,7,2023-09-02,Credit Card,62970000,Completed
+290,2,3,2023-09-06,MoMo,51980000,Completed
+291,12,3,2023-09-03,ZaloPay,41980000,Completed
+292,4,3,2023-09-01,ZaloPay,25480000,Completed
+293,29,8,2023-09-16,Cash,53970000,Completed
+294,22,3,2023-09-22,Bank Transfer,136960000,Completed
+295,9,8,2023-09-03,Bank Transfer,23990000,Completed
+296,10,3,2023-09-07,Bank Transfer,4990000,Completed
+297,27,8,2023-09-22,MoMo,27990000,Completed
+298,25,4,2023-09-24,Credit Card,490000,Completed
+299,10,7,2023-09-03,Cash,12990000,Completed
+300,15,4,2023-09-25,MoMo,28990000,Completed
+301,9,4,2023-09-19,MoMo,70970000,Completed
+302,14,7,2023-09-26,Bank Transfer,40960000,Completed
+303,26,8,2023-09-15,Credit Card,9980000,Completed
+304,8,7,2023-09-08,Credit Card,28990000,Completed
+305,7,3,2023-09-18,ZaloPay,68970000,Completed
+306,3,4,2023-09-21,Bank Transfer,27980000,Completed
+307,18,3,2023-09-23,MoMo,13980000,Completed
+308,14,3,2023-09-27,Bank Transfer,30970000,Completed
+309,25,8,2023-09-21,Credit Card,15470000,Completed
+310,22,4,2023-09-01,Cash,157460000,Completed
+311,13,3,2023-09-24,ZaloPay,50970000,Completed
+312,1,7,2023-09-06,Credit Card,68450000,Completed
+313,26,7,2023-09-03,ZaloPay,55980000,Completed
+314,23,7,2023-09-17,Cash,20990000,Completed
+315,16,4,2023-09-06,ZaloPay,19980000,Completed
+316,16,7,2023-09-15,MoMo,9980000,Completed
+317,13,3,2023-09-15,Cash,48970000,Completed
+318,24,8,2023-09-22,Credit Card,52970000,Completed
+319,29,4,2023-09-06,Credit Card,38970000,Completed
+320,26,7,2023-09-26,MoMo,4990000,Completed
+321,13,7,2023-09-13,Bank Transfer,19870000,Completed
+322,20,8,2023-09-13,Credit Card,14980000,Completed
+323,15,7,2023-09-19,Cash,27990000,Completed
+324,8,3,2023-09-08,Bank Transfer,490000,Completed
+325,15,7,2023-09-13,Credit Card,91960000,Completed
+326,20,8,2023-09-01,Cash,44970000,Completed
+327,18,7,2023-09-25,Bank Transfer,193940000,Completed
+328,15,8,2023-09-23,Cash,13990000,Completed
+329,17,3,2023-09-28,MoMo,27980000,Completed
+330,20,8,2023-09-05,Bank Transfer,80950000,Completed
+331,9,4,2023-09-23,MoMo,390000,Completed
+332,30,8,2023-09-27,Bank Transfer,34470000,Completed
+333,20,8,2023-09-17,Cash,49980000,Completed
+334,15,8,2023-09-15,Cash,1170000,Completed
+335,6,8,2023-10-18,Bank Transfer,65980000,Completed
+336,23,7,2023-10-16,Cash,10990000,Completed
+337,11,8,2023-10-01,Bank Transfer,390000,Completed
+338,17,4,2023-10-20,Credit Card,32990000,Completed
+339,17,7,2023-10-05,Bank Transfer,26970000,Completed
+340,17,4,2023-10-01,Credit Card,83930000,Completed
+341,15,7,2023-10-05,Cash,47970000,Completed
+342,2,4,2023-10-19,MoMo,32990000,Completed
+343,28,7,2023-10-10,Cash,33980000,Completed
+344,17,7,2023-10-17,MoMo,99970000,Completed
+345,20,7,2023-10-07,Bank Transfer,90470000,Completed
+346,27,4,2023-10-18,MoMo,7490000,Completed
+347,19,3,2023-10-12,Cash,2990000,Completed
+348,11,4,2023-10-02,Cash,390000,Completed
+349,26,8,2023-10-17,Cash,93960000,Completed
+350,29,8,2023-10-24,Credit Card,27980000,Completed
+351,27,8,2023-10-21,Cash,27980000,Completed
+352,19,7,2023-10-23,Bank Transfer,12990000,Completed
+353,19,7,2023-10-02,Credit Card,23990000,Completed
+354,14,7,2023-10-19,Credit Card,67960000,Completed
+355,6,8,2023-10-04,Credit Card,41980000,Completed
+356,21,7,2023-10-26,Bank Transfer,12990000,Completed
+357,1,4,2023-10-23,Credit Card,23990000,Completed
+358,13,8,2023-10-14,Credit Card,780000,Completed
+359,9,8,2023-10-26,Cash,51360000,Completed
+360,11,3,2023-10-17,MoMo,28990000,Completed
+361,13,4,2023-10-13,Cash,127930000,Completed
+362,5,8,2023-10-04,Credit Card,2990000,Completed
+363,3,8,2023-10-21,Bank Transfer,40970000,Completed
+364,10,8,2023-10-23,Credit Card,7490000,Completed
+365,15,3,2023-10-17,Cash,23990000,Completed
+366,3,3,2023-10-19,Credit Card,23990000,Completed
+367,16,8,2023-10-16,Credit Card,31980000,Completed
+368,18,8,2023-10-09,Credit Card,18990000,Completed
+369,20,4,2023-10-26,Bank Transfer,39990000,Completed
+370,23,7,2023-10-18,MoMo,2990000,Completed
+371,9,8,2023-10-04,Bank Transfer,25480000,Completed
+372,23,8,2023-10-17,Bank Transfer,73350000,Completed
+373,24,7,2023-10-20,MoMo,49980000,Completed
+374,17,3,2023-10-28,Cash,90950000,Completed
+375,13,4,2023-10-12,ZaloPay,102970000,Completed
+376,9,7,2023-10-24,MoMo,47960000,Completed
+377,20,4,2023-10-24,Credit Card,87960000,Completed
+378,24,7,2023-10-23,MoMo,10990000,Completed
+379,4,4,2023-10-07,Credit Card,163970000,Completed
+380,10,7,2023-10-25,Credit Card,46970000,Completed
+381,10,7,2023-10-27,Cash,13990000,Completed
+382,19,8,2023-10-12,Cash,39990000,Completed
+383,7,4,2023-10-19,MoMo,138930000,Completed
+384,9,8,2023-10-03,Cash,40770000,Completed
+385,30,3,2023-10-16,Cash,7980000,Completed
+386,14,7,2023-10-15,Credit Card,55470000,Completed
+387,4,8,2023-10-15,Bank Transfer,32480000,Completed
+388,20,8,2023-10-15,Cash,7490000,Completed
+389,1,7,2023-10-07,Credit Card,490000,Completed
+390,19,3,2023-10-18,Credit Card,17460000,Completed
+391,25,7,2023-11-22,MoMo,20990000,Completed
+392,28,4,2023-11-27,Bank Transfer,90960000,Completed
+393,26,7,2023-11-14,MoMo,18990000,Completed
+394,13,3,2023-11-13,Cash,26460000,Completed
+395,18,4,2023-11-08,Cash,27990000,Completed
+396,11,7,2023-11-12,Cash,14980000,Completed
+397,8,4,2023-11-11,Cash,32990000,Completed
+398,27,4,2023-11-11,ZaloPay,4990000,Completed
+399,10,4,2023-11-28,MoMo,7490000,Completed
+400,15,8,2023-11-25,Credit Card,58470000,Completed
+401,5,7,2023-11-24,Bank Transfer,69990000,Completed
+402,19,8,2023-11-08,Credit Card,18990000,Completed
+403,20,8,2023-11-16,Bank Transfer,79970000,Completed
+404,24,4,2023-11-16,Cash,149970000,Completed
+405,8,3,2023-11-22,Bank Transfer,2990000,Completed
+406,26,7,2023-11-18,MoMo,16980000,Completed
+407,13,3,2023-11-23,Cash,24990000,Completed
+408,11,3,2023-11-23,MoMo,29380000,Completed
+409,26,8,2023-11-19,Cash,27980000,Completed
+410,13,8,2023-11-12,Bank Transfer,23990000,Completed
+411,1,3,2023-11-01,ZaloPay,28990000,Completed
+412,3,8,2023-11-02,Cash,22990000,Completed
+413,7,8,2023-11-03,MoMo,24990000,Completed
+414,12,4,2023-11-03,Credit Card,98980000,Completed
+415,27,3,2023-11-16,Cash,71470000,Completed
+416,13,4,2023-11-18,MoMo,23990000,Completed
+417,30,8,2023-11-02,ZaloPay,39970000,Completed
+418,26,3,2023-11-21,Bank Transfer,20990000,Completed
+419,21,3,2023-11-25,MoMo,93980000,Completed
+420,3,8,2023-11-03,Bank Transfer,71970000,Completed
+421,28,3,2023-11-13,Cash,66970000,Completed
+422,21,4,2023-11-02,ZaloPay,32260000,Completed
+423,9,3,2023-11-12,Bank Transfer,8490000,Completed
+424,27,7,2023-11-24,Credit Card,68970000,Completed
+425,1,8,2023-11-19,Credit Card,62960000,Completed
+426,6,3,2023-11-05,Cash,390000,Completed
+427,13,3,2023-11-28,Cash,84960000,Completed
+428,15,4,2023-11-21,Credit Card,41980000,Completed
+429,17,7,2023-11-17,Bank Transfer,119950000,Completed
+430,12,4,2023-11-10,Bank Transfer,81460000,Completed
+431,13,7,2023-11-06,Bank Transfer,9980000,Completed
+432,20,8,2023-11-06,Bank Transfer,22990000,Completed
+433,7,7,2023-11-05,MoMo,22990000,Completed
+434,9,7,2023-11-04,Cash,24480000,Completed
+435,5,3,2023-11-15,MoMo,62460000,Completed
+436,16,8,2023-11-20,Credit Card,28870000,Completed
+437,29,8,2023-11-09,ZaloPay,47980000,Completed
+438,3,7,2023-11-04,ZaloPay,22990000,Completed
+439,6,4,2023-11-02,Cash,145940000,Completed
+440,12,3,2023-11-22,Cash,37980000,Completed
+441,25,4,2023-11-02,MoMo,4990000,Completed
+442,10,3,2023-11-28,MoMo,5980000,Completed
+443,28,7,2023-11-28,Bank Transfer,4990000,Completed
+444,2,8,2023-11-07,ZaloPay,31480000,Completed
+445,12,7,2023-11-16,Bank Transfer,65470000,Completed
+446,10,4,2023-11-13,Cash,84970000,Completed
+447,22,7,2023-11-04,Cash,23980000,Completed
+448,2,4,2023-11-25,Cash,22470000,Completed
+449,12,8,2023-11-03,Credit Card,66970000,Completed
+450,6,3,2023-11-01,Credit Card,13990000,Completed
+451,19,3,2023-11-18,Credit Card,39990000,Completed
+452,24,8,2023-11-21,ZaloPay,84970000,Completed
+453,19,8,2023-11-17,MoMo,39990000,Completed
+454,19,3,2023-11-09,Credit Card,4990000,Completed
+455,17,4,2023-11-24,Cash,15140000,Completed
+456,8,7,2023-11-18,Cash,13990000,Completed
+457,22,7,2023-11-21,Cash,20990000,Completed
+458,18,4,2023-11-22,Credit Card,152970000,Completed
+459,14,8,2023-11-15,Cash,7490000,Completed
+460,21,7,2023-11-07,Bank Transfer,7490000,Completed
+461,4,7,2023-11-22,Cash,44980000,Completed
+462,29,4,2023-11-14,ZaloPay,68970000,Completed
+463,20,7,2023-11-08,Bank Transfer,16990000,Completed
+464,5,4,2023-11-28,Credit Card,97440000,Completed
+465,15,8,2023-11-15,Bank Transfer,21770000,Completed
+466,5,4,2023-11-07,Cash,136940000,Completed
+467,6,4,2023-11-10,Cash,36970000,Completed
+468,11,7,2023-11-18,Cash,14980000,Completed
+469,1,3,2023-11-06,Cash,37980000,Completed
+470,3,7,2023-12-11,Credit Card,79980000,Completed
+471,13,7,2023-12-21,Cash,8490000,Completed
+472,8,4,2023-12-01,ZaloPay,86970000,Completed
+473,27,4,2023-12-11,Credit Card,7490000,Completed
+474,28,8,2023-12-18,Credit Card,44980000,Completed
+475,11,8,2023-12-23,MoMo,103960000,Completed
+476,2,3,2023-12-23,Credit Card,8660000,Completed
+477,2,4,2023-12-11,Credit Card,390000,Completed
+478,26,4,2023-12-11,Cash,69990000,Completed
+479,21,4,2023-12-24,Bank Transfer,59960000,Completed
+480,22,4,2023-12-23,Bank Transfer,73960000,Completed
+481,7,7,2023-12-02,Bank Transfer,20960000,Completed
+482,22,7,2023-12-28,Cash,17980000,Completed
+483,26,7,2023-12-23,MoMo,29770000,Completed
+484,15,4,2023-12-15,Cash,51980000,Completed
+485,22,8,2023-12-26,ZaloPay,66470000,Completed
+486,6,3,2023-12-23,Cash,2990000,Completed
+487,24,8,2023-12-04,MoMo,49980000,Completed
+488,20,4,2023-12-27,ZaloPay,36980000,Completed
+489,23,8,2023-12-28,ZaloPay,37980000,Completed
+490,29,7,2023-12-01,Bank Transfer,20990000,Completed
+491,18,4,2023-12-11,Credit Card,980000,Completed
+492,29,7,2023-12-14,Cash,94440000,Completed
+493,1,7,2023-12-07,ZaloPay,23990000,Completed
+494,24,3,2023-12-07,Credit Card,32990000,Completed
+495,13,7,2023-12-26,Bank Transfer,20990000,Completed
+496,5,8,2023-12-09,Bank Transfer,23990000,Completed
+497,13,8,2023-12-28,ZaloPay,63450000,Completed
+498,7,7,2023-12-10,Credit Card,28980000,Completed
+499,27,4,2023-12-16,Credit Card,28990000,Completed
+500,1,4,2023-12-11,Cash,204430000,Completed
+501,26,8,2023-12-07,Cash,2990000,Completed
+502,3,3,2023-12-06,Credit Card,69990000,Completed
+503,26,4,2023-12-03,Cash,4990000,Completed
+504,6,4,2023-12-11,MoMo,139980000,Completed
+505,23,4,2023-12-18,Credit Card,141740000,Completed
+506,10,4,2023-12-21,Bank Transfer,48980000,Completed
+507,12,4,2023-12-04,Bank Transfer,390000,Completed
+508,10,4,2023-12-22,Credit Card,37980000,Completed
+509,16,8,2023-12-19,ZaloPay,81970000,Completed
+510,30,3,2023-12-23,Cash,37980000,Completed
+511,13,8,2023-12-17,Cash,16990000,Completed
+512,5,4,2023-12-11,Cash,18990000,Completed
+513,24,3,2023-12-12,Bank Transfer,52980000,Completed
+514,6,8,2023-12-02,Cash,14980000,Completed
+515,20,3,2023-12-04,Credit Card,55470000,Completed
+516,27,4,2023-12-11,MoMo,95970000,Completed
+517,1,7,2023-12-20,ZaloPay,33980000,Completed
+518,2,7,2023-12-10,Cash,35460000,Completed
+519,2,7,2023-12-12,Cash,93980000,Completed
+520,21,7,2023-12-27,Bank Transfer,9980000,Completed
+521,21,4,2023-12-11,Bank Transfer,980000,Completed
+522,23,7,2023-12-16,Credit Card,38970000,Completed
+523,17,4,2023-12-22,Cash,780000,Completed
+524,24,7,2023-12-09,Bank Transfer,9980000,Completed
+525,8,4,2023-12-04,Credit Card,79980000,Completed
+526,18,7,2023-12-19,MoMo,23990000,Completed
+527,12,7,2023-12-09,ZaloPay,14980000,Completed
+528,17,4,2023-12-10,Cash,55970000,Completed
+529,22,8,2023-12-26,Credit Card,23990000,Completed
+530,8,4,2023-12-02,Cash,22990000,Completed
+531,8,8,2023-12-10,Cash,12990000,Completed
+532,10,3,2023-12-12,Bank Transfer,51980000,Completed
+533,6,7,2023-12-14,MoMo,7490000,Completed
+534,4,4,2023-12-19,ZaloPay,40480000,Completed
+535,23,8,2023-12-08,Cash,96940000,Completed
+536,14,3,2023-12-12,Credit Card,780000,Completed
+537,10,3,2023-12-07,MoMo,13990000,Completed
+538,14,4,2023-12-12,Credit Card,8490000,Completed
+539,6,8,2023-12-23,Credit Card,135940000,Completed
+540,21,7,2023-12-08,Bank Transfer,69990000,Completed
+541,26,4,2023-12-28,Credit Card,25970000,Completed
+542,30,8,2023-12-20,MoMo,26480000,Completed
+543,12,3,2023-12-14,Credit Card,4990000,Completed
+544,11,4,2023-12-17,Bank Transfer,35480000,Completed
+545,30,4,2023-12-26,Cash,38470000,Completed
+546,7,8,2023-12-19,Credit Card,33480000,Completed
+547,26,7,2023-12-01,Credit Card,18480000,Completed
+548,11,3,2023-12-05,MoMo,32480000,Completed
+549,10,3,2023-12-03,Bank Transfer,23990000,Completed
+550,12,8,2023-12-23,Credit Card,20990000,Completed
+551,9,8,2023-12-16,MoMo,490000,Completed
+552,12,3,2023-12-09,Cash,155140000,Completed
+553,23,4,2023-12-03,Cash,44980000,Completed
+554,27,7,2023-12-13,MoMo,12990000,Completed
+555,15,7,2023-12-22,Bank Transfer,2990000,Completed
+556,29,4,2023-12-24,ZaloPay,81960000,Completed
+557,1,4,2023-12-02,Bank Transfer,7490000,Completed
+558,27,7,2023-12-09,Cash,390000,Completed
+559,13,8,2023-12-01,Cash,13990000,Completed
+560,11,4,2024-01-05,Credit Card,14470000,Completed
+561,26,3,2024-01-25,Bank Transfer,45980000,Completed
+562,9,7,2024-01-23,MoMo,4990000,Completed
+563,27,3,2024-01-21,Credit Card,32990000,Completed
+564,20,3,2024-01-20,Bank Transfer,18990000,Completed
+565,26,7,2024-01-15,Cash,32970000,Completed
+566,17,4,2024-01-12,Cash,23470000,Completed
+567,17,4,2024-01-14,Bank Transfer,48980000,Completed
+568,14,8,2024-01-05,Cash,41980000,Completed
+569,7,7,2024-01-07,MoMo,7490000,Completed
+570,24,3,2024-01-03,Cash,33980000,Completed
+571,11,4,2024-01-04,Credit Card,13990000,Completed
+572,11,3,2024-01-02,Credit Card,85960000,Completed
+573,5,7,2024-01-02,Credit Card,28980000,Completed
+574,15,7,2024-01-15,Cash,52460000,Completed
+575,8,7,2024-01-21,Cash,8490000,Completed
+576,17,4,2024-01-09,Cash,38970000,Completed
+577,27,3,2024-01-13,Credit Card,16990000,Completed
+578,2,7,2024-01-11,Credit Card,113940000,Completed
+579,1,8,2024-01-05,Credit Card,13990000,Completed
+580,16,4,2024-01-07,ZaloPay,67950000,Completed
+581,16,7,2024-01-01,Cash,7490000,Completed
+582,21,8,2024-01-23,Credit Card,32970000,Completed
+583,13,7,2024-01-21,Cash,41980000,Completed
+584,11,7,2024-01-12,Credit Card,68960000,Completed
+585,25,8,2024-01-26,MoMo,2990000,Completed
+586,26,4,2024-01-17,Cash,33980000,Completed
+587,2,7,2024-01-22,Bank Transfer,10990000,Completed
+588,8,7,2024-02-23,Bank Transfer,14980000,Completed
+589,5,8,2024-02-05,Bank Transfer,51970000,Completed
+590,24,3,2024-02-08,ZaloPay,14970000,Completed
+591,17,7,2024-02-22,Cash,42970000,Completed
+592,9,8,2024-02-04,ZaloPay,164970000,Completed
+593,24,8,2024-02-27,Bank Transfer,390000,Completed
+594,20,8,2024-02-19,Cash,24990000,Completed
+595,22,3,2024-02-25,Credit Card,64980000,Completed
+596,30,3,2024-02-12,Bank Transfer,81960000,Completed
+597,11,7,2024-02-02,MoMo,234350000,Completed
+598,2,3,2024-02-16,Cash,133440000,Completed
+599,11,4,2024-02-02,Cash,40980000,Completed
+600,9,4,2024-02-16,Credit Card,26960000,Completed
+601,22,4,2024-02-22,Bank Transfer,22990000,Completed
+602,5,4,2024-02-03,Credit Card,13990000,Completed
+603,13,4,2024-02-20,Cash,28470000,Completed
+604,2,4,2024-02-12,Cash,156950000,Completed
+605,12,7,2024-02-03,ZaloPay,71970000,Completed
+606,26,7,2024-02-02,ZaloPay,39990000,Completed
+607,16,8,2024-02-02,Bank Transfer,61970000,Completed
+608,7,4,2024-02-10,MoMo,45970000,Completed
+609,19,7,2024-02-28,Bank Transfer,27990000,Completed
+610,22,4,2024-02-12,Credit Card,80470000,Completed
+611,12,4,2024-02-21,MoMo,23990000,Completed
+612,20,7,2024-02-07,Bank Transfer,95940000,Completed
+613,11,8,2024-02-01,Credit Card,7490000,Completed
+614,21,8,2024-02-06,Bank Transfer,28990000,Completed
+615,1,3,2024-02-25,MoMo,24990000,Completed
+616,27,4,2024-02-18,Bank Transfer,65980000,Completed
+617,21,4,2024-02-12,Cash,14980000,Completed
+618,15,4,2024-03-17,Cash,136950000,Completed
+619,14,8,2024-03-13,Cash,27990000,Completed
+620,3,8,2024-03-20,Cash,4990000,Completed
+621,25,3,2024-03-02,Credit Card,4990000,Completed
+622,16,4,2024-03-24,Credit Card,21980000,Completed
+623,8,8,2024-03-15,Cash,7490000,Completed
+624,23,7,2024-03-23,Credit Card,10990000,Completed
+625,2,7,2024-03-27,Bank Transfer,27990000,Completed
+626,5,4,2024-03-27,Bank Transfer,23990000,Completed
+627,24,8,2024-03-16,ZaloPay,40960000,Completed
+628,21,3,2024-03-22,Credit Card,24990000,Completed
+629,11,3,2024-03-22,Cash,15980000,Completed
+630,4,7,2024-03-09,Bank Transfer,16980000,Completed
+631,27,7,2024-03-15,Credit Card,36470000,Completed
+632,10,3,2024-03-24,MoMo,3380000,Completed
+633,9,7,2024-03-03,Credit Card,4990000,Completed
+634,8,3,2024-03-16,Credit Card,46980000,Completed
+635,5,4,2024-03-25,ZaloPay,41980000,Completed
+636,14,8,2024-03-07,Bank Transfer,13990000,Completed
+637,18,4,2024-03-25,Credit Card,122440000,Completed
+638,6,8,2024-03-08,Cash,47960000,Completed
+639,21,3,2024-03-16,Bank Transfer,177960000,Completed
+640,3,7,2024-03-28,Credit Card,20990000,Completed
+641,4,4,2024-03-19,Bank Transfer,16990000,Completed
+642,12,7,2024-03-17,MoMo,24990000,Completed
+643,24,8,2024-03-22,Cash,33970000,Completed
+644,1,4,2024-03-07,Credit Card,63980000,Completed
+645,27,4,2024-03-18,ZaloPay,9980000,Completed
+646,24,4,2024-03-20,Cash,880000,Completed
+647,4,8,2024-03-28,ZaloPay,15980000,Completed
+648,27,3,2024-03-22,MoMo,26980000,Completed
+649,29,4,2024-03-10,Bank Transfer,57980000,Completed
+650,23,7,2024-03-26,Bank Transfer,69990000,Completed
+651,5,7,2024-03-15,Credit Card,16980000,Completed
+652,27,3,2024-03-21,Cash,16980000,Completed
+653,1,3,2024-03-21,Credit Card,9980000,Completed
+654,22,4,2024-04-16,Credit Card,32990000,Completed
+655,18,3,2024-04-22,MoMo,47980000,Completed
+656,11,7,2024-04-05,Credit Card,32990000,Completed
+657,7,3,2024-04-04,ZaloPay,88980000,Completed
+658,14,8,2024-04-18,ZaloPay,28980000,Completed
+659,13,4,2024-04-20,Credit Card,47970000,Completed
+660,19,3,2024-04-21,Bank Transfer,22470000,Completed
+661,5,3,2024-04-08,Credit Card,14970000,Completed
+662,25,7,2024-04-10,MoMo,71970000,Completed
+663,12,4,2024-04-25,MoMo,27980000,Completed
+664,11,8,2024-04-24,Cash,32980000,Completed
+665,13,8,2024-04-27,Credit Card,1170000,Completed
+666,26,3,2024-04-02,Credit Card,48970000,Completed
+667,1,8,2024-04-23,Cash,16370000,Completed
+668,27,7,2024-04-22,Credit Card,84970000,Completed
+669,21,8,2024-04-20,ZaloPay,66940000,Completed
+670,15,7,2024-04-27,Credit Card,7490000,Completed
+671,10,3,2024-04-03,Credit Card,71970000,Completed
+672,15,8,2024-04-05,Bank Transfer,169950000,Completed
+673,11,7,2024-04-28,Credit Card,47960000,Completed
+674,27,3,2024-04-14,Bank Transfer,43470000,Completed
+675,16,3,2024-04-08,Bank Transfer,13990000,Completed
+676,14,7,2024-04-11,Cash,45980000,Completed
+677,24,7,2024-04-17,Credit Card,39990000,Completed
+678,24,3,2024-04-28,Credit Card,201960000,Completed
+679,25,3,2024-04-28,MoMo,8490000,Completed
+680,27,3,2024-04-16,Credit Card,25980000,Completed
+681,11,4,2024-04-17,Credit Card,8490000,Completed
+682,2,3,2024-04-28,ZaloPay,40980000,Completed
+683,10,4,2024-04-09,Credit Card,59960000,Completed
+684,4,8,2024-04-27,ZaloPay,23990000,Completed
+685,16,7,2024-04-16,Credit Card,9980000,Completed
+686,15,3,2024-04-01,Credit Card,47980000,Completed
+687,17,7,2024-04-03,Bank Transfer,54460000,Completed
+688,11,8,2024-04-18,MoMo,60980000,Completed
+689,27,3,2024-04-10,Cash,28990000,Completed
+690,26,7,2024-04-11,Bank Transfer,45460000,Completed
+691,9,3,2024-04-20,Credit Card,110340000,Completed
+692,1,3,2024-04-04,Credit Card,76970000,Completed
+693,29,8,2024-05-28,Cash,17980000,Completed
+694,14,7,2024-05-05,MoMo,9980000,Completed
+695,16,8,2024-05-28,Bank Transfer,37970000,Completed
+696,25,4,2024-05-23,MoMo,56440000,Completed
+697,8,3,2024-05-21,Bank Transfer,49860000,Completed
+698,18,4,2024-05-16,Cash,14980000,Completed
+699,2,8,2024-05-24,Cash,13990000,Completed
+700,9,8,2024-05-26,Bank Transfer,46980000,Completed
+701,15,7,2024-05-21,Cash,35470000,Completed
+702,11,3,2024-05-10,Cash,47980000,Completed
+703,25,7,2024-05-02,Cash,43980000,Completed
+704,22,7,2024-05-10,ZaloPay,18990000,Completed
+705,12,4,2024-05-11,MoMo,13470000,Completed
+706,3,8,2024-05-18,Credit Card,23470000,Completed
+707,14,7,2024-05-10,Cash,12480000,Completed
+708,8,3,2024-05-19,Cash,490000,Completed
+709,23,3,2024-05-10,Credit Card,32460000,Completed
+710,12,3,2024-05-13,Credit Card,104970000,Completed
+711,24,3,2024-05-07,MoMo,27990000,Completed
+712,11,3,2024-05-08,Cash,48760000,Completed
+713,24,8,2024-05-22,Bank Transfer,94960000,Completed
+714,26,4,2024-05-13,ZaloPay,9980000,Completed
+715,12,8,2024-05-11,Credit Card,66960000,Completed
+716,16,3,2024-05-19,Credit Card,32990000,Completed
+717,7,8,2024-05-18,ZaloPay,15470000,Completed
+718,13,7,2024-05-04,Cash,490000,Completed
+719,12,8,2024-05-03,Credit Card,23990000,Completed
+720,22,7,2024-05-05,Bank Transfer,23980000,Completed
+721,1,3,2024-05-17,Bank Transfer,7490000,Completed
+722,11,7,2024-05-05,Bank Transfer,136950000,Completed
+723,4,8,2024-05-07,Cash,32990000,Completed
+724,8,3,2024-05-27,Credit Card,49980000,Completed
+725,21,3,2024-05-13,Cash,92980000,Completed
+726,28,3,2024-05-11,Bank Transfer,66250000,Completed
+727,20,8,2024-05-08,Bank Transfer,57980000,Completed
+728,29,8,2024-05-11,Credit Card,7490000,Completed
+729,23,4,2024-06-18,Credit Card,43460000,Completed
+730,21,7,2024-06-12,Credit Card,66950000,Completed
+731,10,4,2024-06-07,Credit Card,47980000,Completed
+732,22,8,2024-06-21,MoMo,102970000,Completed
+733,11,4,2024-06-15,Credit Card,129940000,Completed
+734,6,4,2024-06-01,MoMo,90970000,Completed
+735,20,4,2024-06-17,Cash,44980000,Completed
+736,3,4,2024-06-10,ZaloPay,31480000,Completed
+737,8,7,2024-06-18,Credit Card,209970000,Completed
+738,8,7,2024-06-08,ZaloPay,43470000,Completed
+739,2,4,2024-06-13,Bank Transfer,27990000,Completed
+740,27,7,2024-06-22,MoMo,41970000,Completed
+741,2,3,2024-06-28,Cash,41970000,Completed
+742,9,8,2024-06-16,Cash,58960000,Completed
+743,30,3,2024-06-27,Bank Transfer,13990000,Completed
+744,21,8,2024-06-14,Cash,39990000,Completed
+745,15,8,2024-06-22,Bank Transfer,28990000,Completed
+746,9,3,2024-06-01,MoMo,2990000,Completed
+747,21,3,2024-06-25,ZaloPay,36480000,Completed
+748,10,3,2024-06-26,Credit Card,390000,Completed
+749,2,3,2024-06-16,Credit Card,23990000,Completed
+750,17,7,2024-06-28,Credit Card,77970000,Completed
+751,8,4,2024-06-09,Bank Transfer,65960000,Completed
+752,12,4,2024-06-16,Cash,9980000,Completed
+753,25,7,2024-06-11,Bank Transfer,47130000,Completed
+754,28,8,2024-06-16,Cash,32970000,Completed
+755,21,7,2024-06-07,Bank Transfer,33370000,Completed
+756,1,3,2024-06-10,ZaloPay,39990000,Completed
+757,22,3,2024-06-20,MoMo,23990000,Completed
+758,14,7,2024-06-01,Cash,28980000,Completed
+759,4,8,2024-06-25,ZaloPay,23990000,Completed
+760,12,8,2024-06-04,Cash,23990000,Completed
+761,6,7,2024-06-26,Credit Card,38980000,Completed
+762,2,3,2024-06-26,Bank Transfer,37980000,Completed
+763,7,7,2024-06-04,Credit Card,8490000,Completed
+764,12,4,2024-06-11,MoMo,63980000,Completed
+765,28,4,2024-06-27,Cash,2990000,Completed
+766,25,8,2024-06-01,Credit Card,21980000,Completed
+767,4,3,2024-06-18,Credit Card,23990000,Completed
+768,13,4,2024-06-27,Cash,980000,Completed
+769,1,7,2024-06-11,Cash,7490000,Completed
+770,1,4,2024-06-20,ZaloPay,25460000,Completed
+771,20,7,2024-06-16,MoMo,82960000,Completed
+772,12,3,2024-06-23,ZaloPay,50950000,Completed
+773,20,8,2024-07-02,Cash,36940000,Completed
+774,3,4,2024-07-23,Bank Transfer,37960000,Completed
+775,16,7,2024-07-28,Cash,23990000,Completed
+776,18,7,2024-07-26,Credit Card,86970000,Completed
+777,21,4,2024-07-06,Bank Transfer,41980000,Completed
+778,3,3,2024-07-11,ZaloPay,27990000,Completed
+779,23,8,2024-07-04,Cash,14980000,Completed
+780,13,8,2024-07-12,ZaloPay,36470000,Completed
+781,19,7,2024-07-26,MoMo,37980000,Completed
+782,8,4,2024-07-27,ZaloPay,23990000,Completed
+783,19,7,2024-07-02,Bank Transfer,79980000,Completed
+784,26,8,2024-07-19,Cash,139980000,Completed
+785,27,8,2024-07-18,Bank Transfer,160970000,Completed
+786,8,7,2024-07-10,Cash,71960000,Completed
+787,12,7,2024-07-12,ZaloPay,148940000,Completed
+788,1,7,2024-07-15,ZaloPay,24970000,Completed
+789,28,8,2024-07-13,Cash,23990000,Completed
+790,21,8,2024-07-18,Bank Transfer,47980000,Completed
+791,5,4,2024-07-09,MoMo,33980000,Completed
+792,29,8,2024-07-26,MoMo,63460000,Completed
+793,9,8,2024-07-17,Bank Transfer,4990000,Completed
+794,26,4,2024-07-13,Cash,46980000,Completed
+795,12,8,2024-07-06,Cash,118940000,Completed
+796,1,7,2024-07-01,Bank Transfer,37980000,Completed
+797,3,3,2024-07-18,Credit Card,49980000,Completed
+798,2,8,2024-07-27,Bank Transfer,47980000,Completed
+799,26,4,2024-07-28,Credit Card,39990000,Completed
+800,28,4,2024-07-02,ZaloPay,41480000,Completed
+801,12,7,2024-07-16,Credit Card,7490000,Completed
+802,11,8,2024-07-26,Bank Transfer,70970000,Completed
+803,26,4,2024-07-18,Cash,50450000,Completed
+804,20,8,2024-07-18,Cash,65980000,Completed
+805,28,8,2024-07-21,Credit Card,23990000,Completed
+806,13,4,2024-07-08,Bank Transfer,55960000,Completed
+807,8,7,2024-07-17,MoMo,86960000,Completed
+808,13,4,2024-07-09,Credit Card,47980000,Completed
+809,22,7,2024-07-04,Credit Card,29480000,Completed
+810,22,8,2024-07-05,Cash,95950000,Completed
+811,15,3,2024-08-11,Bank Transfer,69990000,Completed
+812,27,3,2024-08-01,Credit Card,7490000,Completed
+813,21,3,2024-08-22,Bank Transfer,40980000,Completed
+814,20,8,2024-08-27,Cash,88970000,Completed
+815,13,8,2024-08-28,Bank Transfer,90980000,Completed
+816,5,7,2024-08-13,Credit Card,23970000,Completed
+817,27,8,2024-08-18,Credit Card,33970000,Completed
+818,24,4,2024-08-06,MoMo,23990000,Completed
+819,5,4,2024-08-22,Credit Card,18990000,Completed
+820,19,7,2024-08-25,Credit Card,97970000,Completed
+821,26,4,2024-08-20,Cash,34470000,Completed
+822,15,4,2024-08-15,Credit Card,64970000,Completed
+823,12,7,2024-08-16,Bank Transfer,47980000,Completed
+824,5,4,2024-08-18,Credit Card,12990000,Completed
+825,23,8,2024-08-26,MoMo,63970000,Completed
+826,12,4,2024-08-01,Credit Card,13990000,Completed
+827,1,3,2024-08-04,Credit Card,160460000,Completed
+828,16,4,2024-08-04,MoMo,31480000,Completed
+829,23,3,2024-08-17,Bank Transfer,38960000,Completed
+830,21,3,2024-08-17,Bank Transfer,39990000,Completed
+831,19,8,2024-08-11,MoMo,69990000,Completed
+832,23,8,2024-08-19,MoMo,9980000,Completed
+833,4,3,2024-08-19,Credit Card,71970000,Completed
+834,19,4,2024-08-11,MoMo,122950000,Completed
+835,22,4,2024-08-06,Cash,80970000,Completed
+836,12,3,2024-08-20,Credit Card,40970000,Completed
+837,15,7,2024-08-24,Credit Card,47980000,Completed
+838,4,4,2024-08-06,Bank Transfer,490000,Completed
+839,19,8,2024-08-19,Bank Transfer,27480000,Completed
+840,12,3,2024-08-14,Credit Card,83470000,Completed
+841,23,8,2024-08-05,Credit Card,108960000,Completed
+842,9,7,2024-08-13,Bank Transfer,86440000,Completed
+843,17,8,2024-08-05,Credit Card,79980000,Completed
+844,7,4,2024-08-25,Bank Transfer,93950000,Completed
+845,4,4,2024-08-22,Cash,4990000,Completed
+846,9,7,2024-08-22,ZaloPay,44470000,Completed
+847,20,8,2024-08-20,Cash,27990000,Completed
+848,16,3,2024-08-23,Credit Card,112940000,Completed
+849,20,4,2024-08-04,Credit Card,32480000,Completed
+850,30,7,2024-08-08,ZaloPay,120430000,Completed
+851,16,8,2024-08-12,Bank Transfer,20990000,Completed
+852,9,8,2024-08-19,Cash,46370000,Completed
+853,4,3,2024-08-04,Bank Transfer,97980000,Completed
+854,14,3,2024-08-11,Cash,14980000,Completed
+855,3,4,2024-08-13,Credit Card,28370000,Completed
+856,18,8,2024-08-13,Bank Transfer,111920000,Completed
+857,3,8,2024-08-13,ZaloPay,39990000,Completed
+858,10,8,2024-08-10,Credit Card,46980000,Completed
+859,10,4,2024-08-04,Bank Transfer,69990000,Completed
+860,12,3,2024-08-09,MoMo,65470000,Completed
+861,8,3,2024-09-06,Cash,2990000,Completed
+862,26,3,2024-09-04,MoMo,17380000,Completed
+863,15,8,2024-09-08,Credit Card,490000,Completed
+864,29,7,2024-09-16,MoMo,71970000,Completed
+865,9,3,2024-09-01,MoMo,4990000,Completed
+866,20,3,2024-09-20,Credit Card,23990000,Completed
+867,7,7,2024-09-25,Cash,51460000,Completed
+868,28,4,2024-09-08,Credit Card,96960000,Completed
+869,14,8,2024-09-18,Cash,55960000,Completed
+870,21,8,2024-09-25,Bank Transfer,39990000,Completed
+871,1,3,2024-09-11,MoMo,24470000,Completed
+872,29,7,2024-09-18,MoMo,12990000,Completed
+873,26,4,2024-09-28,MoMo,22470000,Completed
+874,8,8,2024-09-04,Bank Transfer,93960000,Completed
+875,25,7,2024-09-27,Cash,22470000,Completed
+876,9,3,2024-09-25,Bank Transfer,21480000,Completed
+877,8,4,2024-09-03,Cash,5980000,Completed
+878,25,4,2024-09-13,Bank Transfer,82970000,Completed
+879,24,3,2024-09-21,Bank Transfer,64960000,Completed
+880,8,7,2024-09-15,Credit Card,97960000,Completed
+881,7,3,2024-09-12,Credit Card,222960000,Completed
+882,8,4,2024-09-20,Bank Transfer,44960000,Completed
+883,8,8,2024-09-20,Credit Card,88470000,Completed
+884,1,8,2024-09-06,ZaloPay,18990000,Completed
+885,7,3,2024-09-06,Bank Transfer,31480000,Completed
+886,26,3,2024-09-09,MoMo,31970000,Completed
+887,30,7,2024-09-24,Credit Card,65980000,Completed
+888,30,4,2024-09-06,Credit Card,24960000,Completed
+889,4,7,2024-09-16,Bank Transfer,2990000,Completed
+890,24,8,2024-09-04,ZaloPay,34980000,Completed
+891,30,7,2024-09-15,Credit Card,8490000,Completed
+892,15,4,2024-09-04,Bank Transfer,122750000,Completed
+893,16,8,2024-09-07,Bank Transfer,85960000,Completed
+894,4,8,2024-09-28,ZaloPay,390000,Completed
+895,22,7,2024-09-27,Credit Card,74970000,Completed
+896,9,8,2024-09-11,ZaloPay,69990000,Completed
+897,3,3,2024-09-22,MoMo,24990000,Completed
+898,8,4,2024-09-21,MoMo,28990000,Completed
+899,23,3,2024-09-05,MoMo,23990000,Completed
+900,29,3,2024-09-26,Bank Transfer,91430000,Completed
+901,20,4,2024-09-20,Credit Card,68960000,Completed
+902,26,3,2024-09-12,MoMo,39990000,Completed
+903,29,8,2024-09-04,Bank Transfer,5480000,Completed
+904,19,7,2024-09-04,Credit Card,56980000,Completed
+905,29,3,2024-09-06,Credit Card,13990000,Completed
+906,2,4,2024-09-05,Credit Card,113960000,Completed
+907,23,7,2024-09-02,Credit Card,4990000,Completed
+908,28,4,2024-09-16,Cash,29970000,Completed
+909,22,7,2024-09-11,Bank Transfer,10990000,Completed
+910,8,7,2024-09-02,Cash,27990000,Completed
+911,27,8,2024-09-01,Bank Transfer,7490000,Completed
+912,23,4,2024-02-02,Credit Card,43960000,Completed
+913,3,8,2023-04-22,Credit Card,29980000,Completed
+914,22,3,2024-06-25,ZaloPay,103960000,Completed
+915,23,4,2023-01-20,Credit Card,181960000,Completed
+916,18,7,2023-04-06,MoMo,72960000,Completed
+917,1,8,2023-11-11,ZaloPay,10990000,Completed
+918,4,8,2023-10-05,ZaloPay,53960000,Completed
+919,1,4,2024-02-08,Cash,21770000,Completed
+920,2,8,2024-06-05,Credit Card,32480000,Completed
+921,30,8,2023-01-09,Credit Card,7490000,Completed
+922,21,4,2023-07-04,MoMo,48970000,Completed
+923,21,4,2023-01-09,Credit Card,87470000,Completed
+924,14,4,2023-07-10,ZaloPay,95960000,Completed
+925,18,4,2023-02-02,Credit Card,18470000,Completed
+926,18,4,2023-09-23,ZaloPay,177960000,Completed
+927,13,7,2023-06-11,MoMo,28990000,Completed
+928,4,3,2023-09-16,MoMo,780000,Completed
+929,3,8,2024-05-27,Credit Card,23990000,Completed
+930,9,7,2023-07-17,MoMo,49470000,Completed
+931,2,4,2024-05-20,Cash,980000,Completed
+932,29,3,2023-12-18,MoMo,22760000,Completed
+933,25,3,2024-02-05,Credit Card,39990000,Completed
+934,18,8,2023-08-06,Cash,23990000,Completed
+935,13,8,2024-05-14,Credit Card,98960000,Completed
+936,25,4,2024-02-17,MoMo,9980000,Completed
+937,24,4,2024-05-29,ZaloPay,33980000,Completed
+938,13,8,2023-02-11,Cash,98470000,Completed
+939,3,8,2023-03-14,ZaloPay,120950000,Completed
+940,29,3,2023-02-02,ZaloPay,26760000,Completed
+941,2,7,2023-06-04,Cash,47980000,Completed
+942,17,4,2023-08-20,MoMo,16980000,Completed
+943,24,4,2023-05-17,Credit Card,87940000,Completed
+944,16,3,2023-03-10,Credit Card,79970000,Completed
+945,11,4,2024-02-25,MoMo,79980000,Completed
+946,4,8,2024-04-18,MoMo,9980000,Completed
+947,10,8,2023-03-24,MoMo,47980000,Completed
+948,14,8,2024-05-22,ZaloPay,28990000,Completed
+949,21,7,2023-02-02,Credit Card,62960000,Completed
+950,4,4,2024-04-25,Cash,32990000,Completed
+951,4,4,2023-11-14,ZaloPay,71960000,Completed
+952,22,3,2023-09-09,Cash,4990000,Completed
+953,18,3,2023-01-08,MoMo,69960000,Completed
+954,14,3,2024-04-08,Credit Card,79970000,Completed
+955,14,4,2024-05-29,Cash,23990000,Completed
+956,27,4,2024-02-14,ZaloPay,7490000,Completed
+957,12,3,2023-05-26,Cash,55470000,Completed
+958,16,7,2024-03-31,Credit Card,48970000,Completed
+959,15,4,2023-04-28,MoMo,42960000,Completed
+960,27,7,2024-03-05,ZaloPay,143960000,Completed
+961,15,3,2023-09-30,ZaloPay,72950000,Completed
+962,26,7,2024-01-01,Cash,24970000,Completed
+963,30,4,2023-01-31,Credit Card,14480000,Completed
+964,28,4,2023-11-19,Credit Card,29950000,Completed
+965,3,4,2023-07-26,Cash,40960000,Completed
+966,20,4,2024-04-15,ZaloPay,45980000,Completed
+967,30,7,2023-11-01,ZaloPay,42370000,Completed
+968,27,4,2023-06-25,Credit Card,73970000,Completed
+969,24,7,2023-02-18,MoMo,55980000,Completed
+970,25,3,2023-11-28,MoMo,80950000,Completed
+971,18,7,2023-02-08,ZaloPay,33970000,Completed
+972,1,8,2023-04-25,Cash,48970000,Completed
+973,26,7,2023-03-21,Cash,146960000,Completed
+974,21,8,2023-07-10,MoMo,70770000,Completed
+975,4,7,2023-01-29,MoMo,37980000,Completed
+976,26,8,2023-01-18,MoMo,73470000,Completed
+977,21,3,2023-12-04,Credit Card,71970000,Completed
+978,21,7,2024-01-10,MoMo,139980000,Completed
+979,18,3,2023-01-06,MoMo,25970000,Completed
+980,19,8,2024-06-11,MoMo,28460000,Completed
+981,24,3,2023-04-02,ZaloPay,139980000,Completed
+982,28,8,2023-08-07,MoMo,74460000,Completed
+983,14,4,2023-10-24,Credit Card,12990000,Completed
+984,10,3,2023-10-15,ZaloPay,7490000,Completed
+985,21,8,2024-03-22,Credit Card,52960000,Completed
+986,26,3,2024-06-10,Credit Card,220940000,Completed
+987,8,8,2024-03-05,MoMo,47980000,Completed
+988,30,4,2023-07-30,Cash,42970000,Completed
+989,3,3,2024-06-30,Cash,88980000,Completed
+990,26,7,2023-10-17,Cash,490000,Completed
+991,17,7,2023-04-22,ZaloPay,7490000,Completed
+992,5,7,2023-05-30,MoMo,149950000,Completed
+993,27,4,2023-05-11,MoMo,45450000,Completed
+994,19,8,2023-06-24,Credit Card,54470000,Completed
+995,11,4,2023-10-14,Credit Card,87940000,Completed
+996,29,8,2023-04-22,ZaloPay,121950000,Completed
+997,23,4,2023-04-01,ZaloPay,157960000,Completed
+998,29,8,2024-05-05,ZaloPay,63470000,Completed
+999,24,4,2023-05-06,Credit Card,22990000,Completed
+1000,29,3,2024-03-03,Credit Card,155740000,Completed
+1001,25,4,2024-03-22,Cash,24990000,Completed
+1002,20,4,2023-10-14,Credit Card,24480000,Completed
+1003,21,4,2023-02-14,Credit Card,37980000,Completed
+1004,5,7,2024-05-05,Credit Card,390000,Completed
+1005,10,3,2023-05-25,Credit Card,95950000,Completed
+1006,20,4,2023-07-07,ZaloPay,62960000,Completed
+1007,20,7,2024-05-22,ZaloPay,53960000,Completed
+1008,16,8,2024-06-30,ZaloPay,32970000,Completed
+1009,26,3,2024-01-07,Cash,22970000,Completed
+1010,14,3,2023-06-06,ZaloPay,33980000,Completed
+1011,4,7,2024-05-11,MoMo,47980000,Completed
+1012,12,3,2023-04-13,ZaloPay,17960000,Completed
+1013,18,4,2023-04-29,Cash,52740000,Completed
+1014,1,4,2023-09-01,Credit Card,165950000,Completed
+1015,30,8,2023-05-11,Credit Card,49470000,Completed
+1016,18,4,2023-03-15,Cash,23990000,Completed
+1017,18,8,2023-05-12,Cash,23990000,Completed
+1018,22,3,2023-01-24,Cash,780000,Completed
+1019,10,8,2023-11-15,Cash,53740000,Completed
+1020,4,3,2024-05-11,ZaloPay,85960000,Completed
+1021,17,8,2024-01-19,Credit Card,89970000,Completed
+1022,27,8,2024-03-17,Cash,16980000,Completed
+1023,8,3,2023-06-23,Cash,44450000,Completed
+1024,11,3,2023-10-28,ZaloPay,27940000,Completed
+1025,2,7,2024-03-06,Credit Card,81460000,Completed
+1026,13,3,2023-11-15,Credit Card,53470000,Completed
+1027,4,8,2023-11-28,Credit Card,60960000,Completed
+1028,27,3,2024-04-15,MoMo,14980000,Completed
+1029,7,7,2024-02-24,ZaloPay,980000,Completed
+1030,9,3,2023-01-30,Cash,8490000,Completed
+1031,19,8,2023-01-20,ZaloPay,69990000,Completed
+1032,23,3,2024-05-04,Cash,81970000,Completed
+1033,22,3,2023-07-02,ZaloPay,21980000,Completed
+1034,4,7,2023-08-05,ZaloPay,43970000,Completed
+1035,12,3,2024-04-06,Credit Card,69990000,Completed
+1036,28,4,2023-07-04,ZaloPay,5980000,Completed
+1037,18,3,2023-06-02,Cash,93960000,Completed
+1038,21,8,2024-05-20,ZaloPay,56960000,Completed
+1039,21,7,2024-02-06,ZaloPay,41980000,Completed
+1040,20,4,2023-08-05,Cash,42980000,Completed
+1041,1,8,2024-05-15,MoMo,14980000,Completed
+1042,17,4,2023-01-19,Credit Card,22990000,Completed
+1043,6,3,2023-04-13,ZaloPay,10370000,Completed
+1044,9,4,2023-03-08,ZaloPay,97940000,Completed
+1045,12,4,2024-05-23,Credit Card,41980000,Completed
+1046,7,4,2023-10-12,Cash,57970000,Completed
+1047,18,8,2023-08-23,ZaloPay,157950000,Completed
+1048,23,8,2024-06-23,Credit Card,40960000,Completed
+1049,2,4,2024-04-03,ZaloPay,32970000,Completed
+1050,15,3,2024-06-12,Credit Card,117960000,Completed
+1051,11,3,2024-03-05,MoMo,56470000,Completed
+1052,30,8,2023-08-28,ZaloPay,72970000,Completed
+1053,10,3,2023-10-22,MoMo,75960000,Completed
+1054,17,8,2023-04-24,Credit Card,27990000,Completed
+1055,7,4,2023-12-17,MoMo,9980000,Completed
+1056,2,7,2023-02-13,MoMo,105470000,Completed
+1057,16,8,2024-05-30,Credit Card,46960000,Completed
+1058,10,3,2023-04-09,ZaloPay,64980000,Completed
+1059,25,3,2023-09-06,Credit Card,44960000,Completed
+1060,20,4,2023-03-30,ZaloPay,41980000,Completed
+1061,23,3,2023-02-21,Cash,175950000,Completed
+1062,27,8,2023-03-12,Credit Card,49960000,Completed
+1063,11,4,2023-10-30,Credit Card,21380000,Completed
+1064,29,3,2023-11-28,Credit Card,53950000,Completed
+1065,21,7,2023-03-11,ZaloPay,58960000,Completed
+1066,11,8,2023-03-12,ZaloPay,34970000,Completed
+1067,25,7,2023-12-05,ZaloPay,30360000,Completed
+1068,24,4,2023-11-12,Cash,12990000,Completed
+1069,15,8,2023-06-10,Credit Card,33980000,Completed
+1070,2,4,2023-03-12,Credit Card,20990000,Completed
+1071,18,8,2024-05-10,ZaloPay,17470000,Completed
+1072,23,3,2023-07-24,Credit Card,26960000,Completed
+1073,5,7,2023-03-18,MoMo,108460000,Completed
+1074,2,3,2024-02-08,Cash,77450000,Completed
+1075,5,3,2024-02-24,Credit Card,93970000,Completed
+1076,17,4,2023-02-19,Cash,33980000,Completed
+1077,9,3,2023-03-13,Credit Card,63960000,Completed
+1078,16,8,2023-08-06,Credit Card,46460000,Completed
+1079,28,3,2023-05-15,MoMo,86970000,Completed
+1080,14,4,2023-08-15,Credit Card,13770000,Completed
+1081,17,8,2023-08-18,ZaloPay,43970000,Completed
+1082,4,4,2023-04-29,MoMo,23970000,Completed
+1083,26,3,2023-02-21,ZaloPay,97960000,Completed
+1084,27,7,2024-01-21,ZaloPay,82950000,Completed
+1085,22,8,2023-01-22,ZaloPay,75960000,Completed
+1086,24,8,2023-02-11,ZaloPay,94950000,Completed
+1087,12,3,2023-01-25,ZaloPay,22470000,Completed
+1088,3,4,2023-10-25,MoMo,79980000,Completed
+1089,6,8,2024-05-20,MoMo,33960000,Completed
+1090,24,4,2023-06-10,Cash,41980000,Completed
+1091,13,8,2024-02-05,ZaloPay,23990000,Completed
+1092,26,7,2024-03-04,Credit Card,80960000,Completed
+1093,21,4,2024-02-29,ZaloPay,45980000,Completed
+1094,15,4,2023-02-20,Credit Card,18990000,Completed
+1095,12,8,2023-04-24,ZaloPay,135950000,Completed
+1096,22,8,2023-05-28,Credit Card,21870000,Completed
+1097,21,7,2023-10-18,ZaloPay,29970000,Completed
+1098,14,4,2024-01-23,Cash,49940000,Completed
+1099,1,8,2023-11-12,Credit Card,16980000,Completed
+1100,29,3,2023-06-29,ZaloPay,69950000,Completed
+1101,11,3,2024-05-11,Credit Card,72470000,Completed
+1102,10,3,2023-12-13,Cash,91960000,Completed
+1103,12,3,2023-08-01,ZaloPay,21980000,Completed
+1104,19,7,2024-04-18,Credit Card,17480000,Completed
+1105,3,8,2023-08-31,Cash,47980000,Completed
+1106,25,7,2023-09-21,Credit Card,63940000,Completed
+1107,23,3,2024-01-09,Credit Card,20960000,Completed
+1108,11,4,2024-05-16,Cash,196350000,Completed
+1109,3,4,2024-06-13,ZaloPay,35470000,Completed
+1110,7,8,2023-09-28,MoMo,780000,Completed
+1111,11,3,2023-09-19,Credit Card,79960000,Completed
+1112,22,7,2023-04-25,Cash,49980000,Completed
+1113,24,8,2023-11-28,MoMo,23990000,Completed
+1114,25,8,2024-02-01,Credit Card,71970000,Completed
+1115,26,7,2023-07-06,Credit Card,13770000,Completed
+1116,5,7,2024-01-10,Credit Card,30470000,Completed
+1117,25,8,2024-04-19,Credit Card,70380000,Completed
+1118,10,7,2023-04-17,Cash,29970000,Completed
+1119,25,4,2023-03-15,Credit Card,47980000,Completed
+1120,9,8,2023-12-04,ZaloPay,51360000,Completed
+1121,10,4,2023-01-18,MoMo,63980000,Completed
+1122,13,4,2023-06-15,Cash,12990000,Completed
+1123,10,7,2023-05-15,Cash,12990000,Completed
+1124,11,3,2023-01-02,Cash,109950000,Completed
+1125,29,3,2024-04-19,Credit Card,50960000,Completed
+1126,25,7,2024-01-29,Credit Card,18980000,Completed
+1127,8,8,2023-02-14,Credit Card,52960000,Completed
+1128,15,8,2023-12-24,Credit Card,41460000,Completed
+1129,11,8,2023-05-18,ZaloPay,133450000,Completed
+1130,7,7,2023-09-05,ZaloPay,49980000,Completed
+1131,24,8,2023-12-19,Credit Card,66970000,Completed
+1132,29,3,2023-01-27,Credit Card,13990000,Completed
+1133,23,8,2024-01-27,Credit Card,97960000,Completed
+1134,23,3,2024-03-29,Credit Card,15470000,Completed
+1135,9,4,2024-03-20,MoMo,31480000,Completed
+1136,9,3,2024-06-07,ZaloPay,103450000,Completed
+1137,3,7,2023-10-27,Credit Card,490000,Completed
+1138,16,3,2024-04-28,ZaloPay,79980000,Completed
+1139,28,8,2024-05-22,Cash,36970000,Completed
+1140,23,8,2023-04-09,Cash,57970000,Completed
+1141,17,3,2024-04-15,ZaloPay,70970000,Completed
+1142,23,7,2024-05-15,Credit Card,13990000,Completed
+1143,3,7,2024-05-15,MoMo,70970000,Completed
+1144,1,7,2024-05-14,ZaloPay,16980000,Completed
+1145,3,4,2023-03-10,MoMo,94950000,Completed
+1146,29,7,2023-03-01,ZaloPay,17980000,Completed
+1147,16,7,2023-07-13,MoMo,107950000,Completed
+1148,12,4,2024-01-20,Credit Card,75450000,Completed
+1149,24,3,2023-03-27,ZaloPay,119970000,Completed
+1150,25,4,2023-12-17,Cash,17470000,Completed
+1151,5,4,2024-01-29,Credit Card,4990000,Completed
+1152,26,4,2023-09-13,ZaloPay,40970000,Completed
+1153,22,8,2024-04-21,MoMo,23970000,Completed
+1154,24,3,2023-03-08,MoMo,124950000,Completed
+1155,22,3,2024-04-09,ZaloPay,23990000,Completed
+1156,23,4,2023-07-29,Credit Card,33980000,Completed
+1157,17,7,2024-01-11,ZaloPay,42970000,Completed
+1158,9,8,2023-08-03,ZaloPay,23990000,Completed
+1159,16,8,2023-07-07,MoMo,22990000,Completed
+1160,9,3,2023-06-22,MoMo,47980000,Completed
+1161,15,8,2023-03-27,Cash,89960000,Completed
+1162,12,8,2023-12-06,ZaloPay,147470000,Completed
+1163,10,3,2024-05-28,ZaloPay,20750000,Completed
+1164,12,4,2024-01-16,ZaloPay,138450000,Completed
+1165,7,7,2023-10-30,MoMo,31970000,Completed
+1166,14,8,2024-05-29,Cash,21480000,Completed
+1167,4,7,2023-02-24,MoMo,131960000,Completed
+1168,16,8,2023-12-22,Credit Card,28990000,Completed
+1169,27,8,2023-05-28,Cash,181960000,Completed
+1170,3,7,2023-09-20,Credit Card,17980000,Completed
+1171,16,8,2023-03-07,ZaloPay,76460000,Completed
+1172,15,3,2023-02-11,ZaloPay,16980000,Completed
+1173,17,3,2023-07-24,Credit Card,79980000,Completed
+1174,13,7,2023-09-26,Credit Card,27990000,Completed
+1175,10,8,2024-05-20,Cash,8490000,Completed
+1176,29,3,2023-07-11,Credit Card,63750000,Completed
+1177,20,8,2024-05-12,MoMo,18470000,Completed
+1178,7,3,2023-05-17,Credit Card,47980000,Completed
+1179,18,4,2023-06-30,Credit Card,8270000,Completed
+1180,24,4,2023-09-08,MoMo,51960000,Completed
+1181,30,7,2023-08-06,MoMo,78970000,Completed
+1182,10,7,2023-11-13,Credit Card,55980000,Completed
+1183,22,3,2024-05-16,MoMo,117970000,Completed
+1184,2,8,2024-03-25,MoMo,13990000,Completed
+1185,10,7,2023-09-06,MoMo,42970000,Completed
+1186,10,3,2023-01-22,ZaloPay,93950000,Completed
+1187,29,3,2024-01-26,ZaloPay,113950000,Completed
+1188,18,8,2023-08-23,MoMo,490000,Completed
+1189,30,8,2024-06-30,MoMo,157940000,Completed
+1190,5,7,2023-10-26,Cash,57960000,Completed
+1191,27,8,2023-05-11,MoMo,14980000,Completed
+1192,21,7,2023-09-20,Credit Card,54960000,Completed
+1193,16,8,2024-01-25,ZaloPay,20950000,Completed
+1194,7,3,2023-04-25,MoMo,9980000,Completed
+1195,5,8,2024-05-13,ZaloPay,28990000,Completed
+1196,24,7,2023-06-27,Credit Card,22960000,Completed
+1197,27,8,2023-08-16,Credit Card,162970000,Completed
+1198,7,3,2023-04-27,Credit Card,135960000,Completed
+1199,25,7,2023-01-27,Cash,44970000,Completed
+1200,27,4,2023-12-16,ZaloPay,94350000,Completed
+1201,26,3,2023-01-29,ZaloPay,70970000,Completed
+1202,30,4,2023-05-22,MoMo,66970000,Completed
+1203,7,3,2023-06-02,MoMo,57940000,Completed
+1204,15,7,2023-09-01,MoMo,113950000,Completed
+1205,17,7,2023-08-12,Cash,56760000,Completed
+1206,6,8,2023-08-04,MoMo,75960000,Completed
+1207,11,4,2023-03-25,Credit Card,30970000,Completed
+1208,19,4,2023-02-13,ZaloPay,49980000,Completed
+1209,19,7,2023-10-06,ZaloPay,102970000,Completed
+1210,23,7,2023-08-07,ZaloPay,66970000,Completed
+1211,7,7,2023-04-08,Credit Card,144950000,Completed
+1212,4,4,2024-01-03,MoMo,4990000,Completed
+1213,30,8,2024-04-23,Credit Card,89940000,Completed
+1214,23,4,2023-05-15,Credit Card,23990000,Completed
+1215,22,4,2023-05-23,Cash,31480000,Completed
+1216,11,8,2023-12-03,MoMo,39990000,Completed
+1217,15,3,2024-06-12,MoMo,390000,Completed
+1218,14,4,2023-09-30,Cash,46970000,Completed
+1219,25,8,2023-08-22,ZaloPay,96950000,Completed
+1220,25,8,2023-11-12,ZaloPay,20990000,Completed
+1221,26,3,2024-05-21,Credit Card,37980000,Completed
+1222,19,3,2024-04-16,Cash,16990000,Completed
+1223,18,4,2023-05-02,ZaloPay,62950000,Completed
+1224,13,3,2023-05-25,MoMo,94980000,Completed
+1225,21,8,2024-03-09,Credit Card,64960000,Completed
+1226,4,3,2023-08-30,Cash,52970000,Completed
+1227,21,8,2024-05-09,Credit Card,49980000,Completed
+1228,26,4,2024-01-25,Cash,14980000,Completed
+1229,6,8,2024-04-30,ZaloPay,59970000,Completed
+1230,20,8,2023-01-23,MoMo,121960000,Completed
+1231,8,8,2023-05-14,ZaloPay,15960000,Completed
+1232,12,4,2024-02-19,MoMo,22970000,Completed
+1233,10,7,2023-11-24,Credit Card,47950000,Completed
+1234,9,7,2023-01-07,Cash,7490000,Completed
+1235,6,4,2024-04-06,Cash,39460000,Completed
+1236,24,3,2023-04-13,ZaloPay,39970000,Completed
+1237,12,4,2023-12-06,Credit Card,71970000,Completed
+1238,28,8,2024-03-06,Credit Card,24960000,Completed
+1239,21,4,2023-06-27,Credit Card,95960000,Completed
+1240,24,4,2023-11-24,MoMo,47980000,Completed
+1241,3,4,2023-10-07,MoMo,2990000,Completed
+1242,2,7,2024-06-06,ZaloPay,18990000,Completed
+1243,23,7,2023-08-13,MoMo,38970000,Completed
+1244,19,8,2023-08-03,Credit Card,50450000,Completed
+1245,8,3,2023-10-02,Cash,69990000,Completed
+1246,24,8,2024-03-07,Credit Card,79960000,Completed
+1247,1,8,2023-06-20,ZaloPay,10760000,Completed
+1248,15,4,2023-04-13,Credit Card,131960000,Completed
+1249,22,3,2023-08-19,MoMo,28980000,Completed
+1250,10,4,2023-02-05,ZaloPay,23450000,Completed
+1251,20,4,2023-05-22,MoMo,67960000,Completed
+1252,7,7,2023-09-20,ZaloPay,2990000,Completed
+1253,30,3,2024-05-08,Credit Card,79460000,Completed
+1254,5,8,2023-10-05,ZaloPay,7490000,Completed
+1255,12,3,2023-11-29,Cash,50970000,Completed
+1256,18,3,2023-07-12,MoMo,68960000,Completed
+1257,30,3,2023-04-03,ZaloPay,152460000,Completed
+1258,5,4,2023-07-13,ZaloPay,61970000,Completed
+1259,14,7,2023-03-01,MoMo,68970000,Completed
+1260,12,8,2023-08-17,Credit Card,15470000,Completed
+1261,2,7,2023-09-16,Credit Card,64450000,Completed
+1262,22,4,2023-10-10,Credit Card,55980000,Completed
+1263,12,4,2023-02-09,Credit Card,10370000,Completed
+1264,29,3,2023-09-14,ZaloPay,45470000,Completed
+1265,12,3,2024-01-08,ZaloPay,14980000,Completed
+1266,10,7,2023-12-18,Cash,43970000,Completed
+1267,25,8,2023-08-10,MoMo,20990000,Completed
+1268,25,4,2023-11-11,MoMo,14980000,Completed
+1269,29,4,2024-04-28,MoMo,69970000,Completed
+1270,5,7,2023-04-23,MoMo,31480000,Completed
+1271,1,8,2023-04-15,Credit Card,18990000,Completed
+1272,9,8,2023-03-27,Cash,23990000,Completed
+1273,13,4,2024-04-24,Credit Card,47980000,Completed
+1274,25,4,2023-01-21,MoMo,45950000,Completed
+1275,6,8,2024-06-28,Credit Card,32480000,Completed
+1276,6,3,2023-12-11,ZaloPay,79980000,Completed
+1277,10,4,2024-03-22,Credit Card,14980000,Completed
+1278,3,3,2024-01-02,ZaloPay,105960000,Completed
+1279,14,7,2024-03-21,ZaloPay,31470000,Completed
+1280,27,4,2023-04-07,MoMo,22990000,Completed
+1281,9,8,2023-06-23,Cash,187960000,Completed
+1282,16,3,2023-12-19,ZaloPay,14980000,Completed
+1283,18,3,2023-02-04,MoMo,47980000,Completed
+1284,13,3,2023-04-01,ZaloPay,177960000,Completed
+1285,24,3,2023-10-27,ZaloPay,47970000,Completed
+1286,18,4,2023-05-28,Cash,18990000,Completed
+1287,2,7,2023-05-29,ZaloPay,18990000,Completed
+1288,24,3,2024-02-17,Cash,113960000,Completed
+1289,11,3,2023-06-20,ZaloPay,154960000,Completed
+1290,17,3,2023-09-20,ZaloPay,145950000,Completed
+1291,14,3,2024-06-06,MoMo,7490000,Completed
+1292,19,4,2024-03-27,ZaloPay,67950000,Completed
+1293,20,4,2023-12-09,Credit Card,42960000,Completed
+1294,14,3,2024-01-14,Credit Card,27980000,Completed
+1295,30,3,2023-07-13,MoMo,66940000,Completed
+1296,29,4,2024-01-14,Cash,90960000,Completed
+1297,12,4,2023-01-04,Cash,139980000,Completed
+1298,9,3,2024-03-14,MoMo,25980000,Completed
+1299,12,4,2023-06-21,Credit Card,53750000,Completed
+1300,7,3,2023-06-14,Credit Card,8490000,Completed
+1301,28,3,2024-03-28,Credit Card,48960000,Completed
+1302,27,8,2023-08-23,ZaloPay,37980000,Completed
+1303,5,3,2023-10-21,ZaloPay,173950000,Completed
+1304,23,7,2024-05-10,Cash,80960000,Completed
+1305,3,7,2024-01-27,ZaloPay,12480000,Completed
+1306,19,3,2024-04-17,ZaloPay,780000,Completed
+1307,28,8,2024-02-21,ZaloPay,65980000,Completed
+1308,17,4,2024-01-29,Credit Card,27980000,Completed
+1309,3,3,2023-08-25,ZaloPay,54970000,Completed
+1310,12,4,2024-02-20,Credit Card,9980000,Completed
+1311,23,3,2023-11-25,ZaloPay,23990000,Completed
+1312,12,8,2024-05-19,Credit Card,43960000,Completed
+1313,8,3,2023-07-28,ZaloPay,34970000,Completed
+1314,11,7,2024-06-22,ZaloPay,31980000,Completed
+1315,3,4,2023-06-20,Cash,131950000,Completed
+1316,6,8,2023-05-25,ZaloPay,4990000,Completed
+1317,13,8,2023-03-23,ZaloPay,100940000,Completed
+1318,13,3,2023-04-06,ZaloPay,60460000,Completed
+1319,28,8,2023-05-11,MoMo,27980000,Completed
+1320,4,7,2024-04-19,MoMo,45980000,Completed
+1321,8,4,2024-05-30,Cash,11770000,Completed
+1322,10,4,2023-11-17,Credit Card,24770000,Completed
+1323,20,4,2024-03-12,MoMo,390000,Completed
+1324,25,8,2024-01-28,ZaloPay,56960000,Completed
+1325,29,3,2024-03-05,Cash,50370000,Completed
+1326,18,3,2023-09-23,ZaloPay,56980000,Completed
+1327,5,8,2023-12-03,MoMo,10990000,Completed
+1328,6,8,2023-03-10,ZaloPay,115950000,Completed
+1329,15,4,2024-05-11,Cash,89970000,Completed
+1330,28,4,2023-11-06,ZaloPay,45360000,Completed
+1331,23,8,2023-11-20,Credit Card,42760000,Completed
+1332,8,3,2023-10-28,Credit Card,73750000,Completed
+1333,22,8,2024-02-01,ZaloPay,45980000,Completed
+1334,15,7,2023-03-04,Cash,780000,Completed
+1335,14,3,2023-01-15,Credit Card,19980000,Completed
+1336,9,8,2023-12-17,Cash,27980000,Completed
+1337,21,7,2023-07-25,MoMo,27980000,Completed
+1338,13,4,2024-01-30,Cash,159950000,Completed
+1339,18,8,2023-06-11,Credit Card,74980000,Completed
+1340,27,3,2024-05-28,Credit Card,70950000,Completed
+1341,11,3,2023-04-02,ZaloPay,61470000,Completed
+1342,24,8,2024-04-14,ZaloPay,7490000,Completed
+1343,12,4,2024-02-13,ZaloPay,41980000,Completed
+1344,3,7,2024-04-29,ZaloPay,126950000,Completed
+1345,12,3,2023-01-22,ZaloPay,22470000,Completed
+1346,15,4,2024-05-10,ZaloPay,93980000,Completed
+1347,17,7,2023-02-23,ZaloPay,26980000,Completed
+1348,17,8,2023-04-15,Credit Card,52360000,Completed
+1349,22,7,2023-01-28,Credit Card,104460000,Completed
+1350,4,4,2023-11-26,ZaloPay,780000,Completed
+1351,6,8,2023-01-03,Cash,104350000,Completed
+1352,4,3,2023-02-24,MoMo,81950000,Completed
+1353,12,8,2023-05-04,Credit Card,41980000,Completed
+1354,9,4,2023-06-05,Credit Card,77480000,Completed
+1355,9,7,2024-06-12,Cash,48950000,Completed
+1356,17,7,2023-09-07,Cash,41950000,Completed
+1357,22,4,2024-06-19,ZaloPay,22990000,Completed
+1358,29,7,2023-05-23,ZaloPay,22990000,Completed
+1359,24,8,2023-03-17,ZaloPay,28990000,Completed
+1360,9,3,2023-08-09,ZaloPay,18990000,Completed
+1361,30,3,2023-07-24,Credit Card,183950000,Completed
+1362,11,3,2024-02-21,Cash,21970000,Completed
+1363,8,3,2024-03-23,ZaloPay,58950000,Completed
+1364,22,8,2023-10-16,Cash,4990000,Completed
+1365,19,4,2024-06-02,Cash,200950000,Completed
+1366,17,7,2023-12-31,Credit Card,127970000,Completed
+1367,4,8,2024-02-20,MoMo,78950000,Completed
+1368,15,3,2024-06-26,ZaloPay,80970000,Completed
+1369,26,3,2023-02-06,Credit Card,52970000,Completed
+1370,12,3,2023-12-14,ZaloPay,108940000,Completed
+1371,18,7,2023-08-20,ZaloPay,81960000,Completed
+1372,25,8,2024-04-28,Cash,74470000,Completed
+1373,1,8,2023-06-07,MoMo,72960000,Completed
+1374,22,4,2023-06-11,ZaloPay,99950000,Completed
+1375,5,8,2023-10-20,Credit Card,69990000,Completed
+1376,5,8,2024-01-07,MoMo,127970000,Completed
+1377,22,3,2023-05-24,ZaloPay,98960000,Completed
+1378,14,7,2023-07-20,Credit Card,7490000,Completed
+1379,16,4,2024-05-25,ZaloPay,4990000,Completed
+1380,21,7,2024-06-02,Cash,203940000,Completed
+1381,3,7,2023-09-03,Credit Card,21980000,Completed
+1382,18,3,2024-05-24,ZaloPay,44370000,Completed
+1383,25,7,2024-06-04,Cash,74960000,Completed
+1384,30,3,2024-01-31,Cash,27990000,Completed
+1385,3,8,2023-01-22,ZaloPay,41480000,Completed
+1386,11,7,2023-06-21,Cash,14980000,Completed
+1387,4,8,2023-12-17,ZaloPay,20970000,Completed
+1388,4,7,2023-07-14,MoMo,23770000,Completed
+1389,12,7,2024-03-27,Credit Card,27980000,Completed
+1390,4,8,2023-10-11,Credit Card,8270000,Completed
+1391,21,3,2024-05-23,Credit Card,47980000,Completed
+1392,5,4,2023-02-08,Credit Card,27990000,Completed
+1393,3,3,2023-09-04,MoMo,14980000,Completed
+1394,16,8,2023-07-08,MoMo,155950000,Completed
+1395,29,7,2023-06-07,MoMo,4990000,Completed
+1396,28,4,2023-04-29,Cash,4990000,Completed
+1397,1,8,2023-10-17,Credit Card,65980000,Completed
+1398,25,4,2023-03-27,MoMo,54460000,Completed
+1399,28,7,2023-10-07,Cash,79980000,Completed
+1400,8,3,2024-06-02,Credit Card,38960000,Completed
+1401,28,4,2024-01-14,ZaloPay,177960000,Completed
+1402,22,3,2024-03-12,ZaloPay,980000,Completed
+1403,2,8,2023-03-22,Credit Card,7490000,Completed
+1404,2,3,2023-02-04,MoMo,5480000,Completed
+1405,28,7,2024-04-18,ZaloPay,145950000,Completed
+1406,1,3,2023-06-29,ZaloPay,47960000,Completed
+1407,13,7,2023-05-21,Credit Card,14980000,Completed
+1408,22,4,2023-03-18,Cash,68970000,Completed
+1409,30,8,2023-11-20,ZaloPay,39990000,Completed
+1410,6,4,2023-07-29,MoMo,87970000,Completed
+1411,14,7,2024-06-22,ZaloPay,5980000,Completed
+1412,30,8,2023-10-04,Credit Card,14980000,Completed
+1413,6,7,2023-04-20,ZaloPay,29470000,Completed
+1414,26,8,2023-10-02,ZaloPay,98470000,Completed
+1415,14,4,2023-11-05,Credit Card,45950000,Completed
+1416,16,7,2023-01-09,MoMo,47980000,Completed
+1417,13,8,2023-10-11,Cash,41980000,Completed
+1418,24,8,2023-04-25,MoMo,80960000,Completed
+1419,13,3,2024-06-13,Credit Card,80970000,Completed
+1420,6,7,2023-01-31,ZaloPay,780000,Completed
+1421,6,3,2023-06-26,MoMo,38970000,Completed
+1422,4,7,2023-06-18,Credit Card,142950000,Completed
+1423,30,4,2023-11-25,Cash,23990000,Completed
+1424,28,4,2023-03-27,Credit Card,75960000,Completed
+1425,16,8,2024-04-09,MoMo,67960000,Completed
+1426,5,4,2023-01-10,Cash,100940000,Completed
+1427,22,8,2023-02-02,Credit Card,16980000,Completed
+1428,10,4,2023-04-08,ZaloPay,82940000,Completed
+1429,8,8,2023-11-26,Credit Card,65980000,Completed
+1430,23,7,2023-04-01,Cash,89960000,Completed
+1431,17,4,2024-02-12,Credit Card,27990000,Completed
+1432,6,8,2023-06-18,Credit Card,116950000,Completed
+1433,23,8,2024-02-23,Cash,52470000,Completed
+1434,5,3,2023-04-30,MoMo,8470000,Completed
+1435,30,4,2023-06-05,ZaloPay,102950000,Completed
+1436,20,4,2023-09-25,Credit Card,45980000,Completed
+1437,8,4,2023-10-04,ZaloPay,7490000,Completed
+1438,15,8,2024-04-18,ZaloPay,24990000,Completed
+1439,7,7,2024-06-27,ZaloPay,48760000,Completed
+1440,16,7,2023-02-12,ZaloPay,72980000,Completed
+1441,3,3,2024-05-31,ZaloPay,15760000,Completed
+1442,27,3,2023-11-08,ZaloPay,209940000,Completed
+1443,20,4,2023-11-25,ZaloPay,67960000,Completed
+1444,17,7,2023-05-26,MoMo,64970000,Completed
+1445,17,7,2023-10-20,ZaloPay,21980000,Completed
+1446,29,8,2023-01-26,Credit Card,106940000,Completed
+1447,29,7,2023-11-15,Cash,223940000,Completed
+1448,26,7,2023-03-26,Cash,19970000,Completed
+1449,28,4,2023-06-26,MoMo,80980000,Completed
+1450,21,4,2023-04-22,MoMo,7490000,Completed
+1451,1,7,2023-01-17,Cash,62980000,Completed
+1452,13,4,2023-05-07,Credit Card,99460000,Completed
+1453,24,7,2023-12-31,ZaloPay,7490000,Completed
+1454,14,4,2023-01-10,Cash,56370000,Completed
+1455,16,3,2023-10-01,Cash,5380000,Completed
+1456,5,8,2023-12-24,Credit Card,72940000,Completed
+1457,22,4,2023-03-10,ZaloPay,61960000,Completed
+1458,25,8,2023-05-08,MoMo,82970000,Completed
+1459,10,4,2024-04-20,Cash,37980000,Completed
+1460,10,7,2023-03-17,Credit Card,125970000,Completed
+1461,25,8,2023-06-03,Credit Card,16980000,Completed
+1462,24,7,2023-08-14,ZaloPay,5980000,Completed
+1463,7,3,2023-06-23,MoMo,47970000,Completed
+1464,17,7,2024-03-04,Credit Card,132350000,Completed
+1465,2,4,2023-03-03,Credit Card,48740000,Completed
+1466,5,8,2023-02-05,ZaloPay,70950000,Completed
+1467,15,3,2023-11-07,Credit Card,88950000,Completed
+1468,4,7,2024-05-06,ZaloPay,40460000,Completed
+1469,23,7,2023-06-14,Credit Card,55950000,Completed
+1470,22,8,2023-12-18,Credit Card,9980000,Completed
+1471,25,3,2024-03-31,MoMo,15960000,Completed
+1472,14,7,2023-09-26,ZaloPay,97960000,Completed
+1473,21,8,2023-09-16,Cash,8270000,Completed
+1474,11,3,2023-01-28,Credit Card,7490000,Completed
+1475,19,8,2024-03-23,Cash,27980000,Completed
+1476,21,8,2024-01-24,Credit Card,76970000,Completed
+1477,14,3,2023-10-22,ZaloPay,9470000,Completed
+1478,22,4,2024-04-16,Credit Card,39460000,Completed
+1479,19,8,2023-08-12,Cash,33480000,Completed
+1480,21,7,2023-07-09,Credit Card,145940000,Completed
+1481,4,7,2024-05-30,Cash,39990000,Completed
+1482,3,7,2023-12-12,MoMo,21980000,Completed
+1483,20,4,2023-11-18,MoMo,780000,Completed
+1484,10,3,2023-10-26,Credit Card,19970000,Completed
+1485,26,3,2023-06-30,Cash,28980000,Completed
+1486,9,4,2023-07-03,ZaloPay,10250000,Completed
+1487,29,7,2023-06-01,MoMo,29960000,Completed
+1488,3,8,2023-10-26,Cash,69950000,Completed
+1489,17,4,2023-02-23,MoMo,29960000,Completed
+1490,28,8,2024-01-08,ZaloPay,140760000,Completed
+1491,2,3,2023-06-01,ZaloPay,84970000,Completed
+1492,11,8,2024-03-30,ZaloPay,2990000,Completed
+1493,27,3,2023-10-21,Cash,51970000,Completed
+1494,23,4,2023-12-13,MoMo,18990000,Completed
+1495,25,3,2023-10-21,MoMo,88970000,Completed
+1496,27,3,2023-06-04,Credit Card,2990000,Completed
+1497,4,4,2024-06-04,ZaloPay,1560000,Completed
+1498,7,3,2024-01-22,Credit Card,139980000,Completed
+1499,17,7,2024-05-03,Cash,84970000,Completed
+1500,1,7,2023-06-10,Credit Card,51460000,Completed
+1501,8,3,2023-09-28,Cash,48970000,Completed
+1502,4,3,2024-03-30,Credit Card,26940000,Completed
+1503,3,7,2024-05-06,MoMo,50970000,Completed
+1504,6,4,2023-04-26,ZaloPay,47980000,Completed
+1505,23,3,2023-09-12,Credit Card,133950000,Completed
+1506,2,8,2023-12-31,Cash,59970000,Completed
+1507,24,4,2023-10-28,ZaloPay,32480000,Completed
+1508,9,7,2023-12-17,MoMo,61970000,Completed
+1509,13,7,2023-03-15,Cash,61470000,Completed
+1510,3,8,2023-05-13,Credit Card,65470000,Completed
+1511,5,7,2024-01-20,MoMo,58460000,Completed
+1512,27,4,2023-05-07,Credit Card,71960000,Completed
+1513,30,8,2023-09-04,Credit Card,22990000,Completed
+1514,25,7,2023-03-31,Credit Card,103970000,Completed
+1515,23,7,2023-04-23,MoMo,72950000,Completed
+1516,19,7,2024-02-14,ZaloPay,20990000,Completed
+1517,12,8,2023-06-05,Cash,94960000,Completed
+1518,1,8,2023-12-27,MoMo,47980000,Completed
+1519,17,8,2024-01-29,MoMo,82970000,Completed
+1520,2,7,2024-02-25,ZaloPay,24970000,Completed
+1521,16,8,2023-10-07,ZaloPay,41980000,Completed
+1522,22,7,2023-11-06,Cash,69460000,Completed
+1523,25,7,2023-03-09,ZaloPay,490000,Completed
+1524,13,8,2023-11-11,Credit Card,96960000,Completed
+1525,24,3,2023-07-21,MoMo,155960000,Completed
+1526,28,3,2023-12-09,Cash,69970000,Completed
+1527,20,4,2023-12-14,ZaloPay,49980000,Completed
+1528,25,8,2023-12-14,Credit Card,9660000,Completed
+1529,25,7,2024-04-09,Credit Card,111450000,Completed
+1530,3,4,2023-09-13,ZaloPay,139980000,Completed
+1531,10,4,2023-08-26,MoMo,14970000,Completed
+1532,11,7,2024-06-26,Credit Card,93960000,Completed
+1533,25,7,2023-08-31,Cash,33980000,Completed
+1534,26,8,2023-01-03,Cash,15980000,Completed
+1535,18,4,2024-04-06,Cash,71950000,Completed
+1536,19,4,2023-10-17,Cash,390000,Completed
+1537,19,3,2023-05-31,ZaloPay,34970000,Completed
+1538,14,7,2024-04-16,MoMo,780000,Completed
+1539,18,4,2023-08-06,MoMo,10970000,Completed
+1540,27,3,2023-10-06,Credit Card,20960000,Completed
+1541,28,4,2023-06-18,MoMo,35960000,Completed
+1542,17,3,2023-04-03,Credit Card,980000,Completed
+1543,8,3,2023-06-22,Cash,88960000,Completed
+1544,28,4,2023-04-14,Cash,490000,Completed
+1545,28,3,2023-03-30,ZaloPay,114960000,Completed
+1546,12,7,2023-11-07,Cash,117950000,Completed
+1547,7,8,2023-03-12,Cash,45980000,Completed
+1548,30,3,2023-12-09,MoMo,14980000,Completed
+1549,11,8,2023-03-28,Cash,171940000,Completed
+1550,22,3,2024-04-27,MoMo,154460000,Completed
+1551,14,8,2023-03-09,Credit Card,27460000,Completed
+1552,23,7,2023-10-07,ZaloPay,24970000,Completed
+1553,15,3,2024-04-08,MoMo,140370000,Completed
+1554,2,7,2023-07-03,Cash,159940000,Completed
+1555,11,3,2023-04-21,MoMo,78970000,Completed
+1556,21,4,2023-05-27,Credit Card,21980000,Completed
+1557,11,8,2023-10-20,ZaloPay,39990000,Completed
+1558,17,3,2023-01-09,ZaloPay,201950000,Completed
+1559,28,3,2023-01-10,MoMo,12970000,Completed
+1560,9,7,2023-06-06,ZaloPay,54970000,Completed
+1561,12,7,2024-06-14,ZaloPay,42960000,Completed
+1562,23,7,2024-02-28,ZaloPay,96960000,Completed
+1563,10,3,2023-01-26,MoMo,10990000,Completed
+1564,11,3,2023-04-01,ZaloPay,14980000,Completed
+1565,1,3,2023-05-26,MoMo,85960000,Completed
+1566,15,3,2023-01-12,Credit Card,31970000,Completed
+1567,5,3,2024-01-26,Credit Card,69990000,Completed
+1568,1,4,2024-06-01,ZaloPay,118950000,Completed
+1569,28,8,2024-05-08,Credit Card,53960000,Completed
+1570,22,8,2024-04-10,Credit Card,490000,Completed
+1571,7,3,2023-06-26,ZaloPay,16990000,Completed
+1572,2,3,2023-09-13,MoMo,65980000,Completed
+1573,18,8,2024-03-06,Credit Card,103960000,Completed
+1574,6,7,2023-02-25,ZaloPay,47980000,Completed
+1575,1,4,2023-11-08,MoMo,53470000,Completed
+1576,7,3,2023-04-26,MoMo,80970000,Completed
+1577,16,8,2023-02-20,ZaloPay,41980000,Completed
+1578,4,3,2023-05-09,Credit Card,49460000,Completed
+1579,17,8,2023-03-27,ZaloPay,980000,Completed
+1580,17,8,2023-05-16,ZaloPay,92950000,Completed
+1581,12,4,2023-12-02,ZaloPay,67970000,Completed
+1582,26,3,2023-08-02,Credit Card,119950000,Completed
+1583,8,3,2023-04-13,ZaloPay,76970000,Completed
+1584,1,8,2023-05-30,MoMo,19970000,Completed
+1585,27,7,2023-06-16,Credit Card,7490000,Completed
+1586,16,7,2023-04-13,Credit Card,47980000,Completed
+1587,17,7,2024-03-31,ZaloPay,8490000,Completed
+1588,13,3,2024-05-22,ZaloPay,79980000,Completed
+1589,19,8,2023-10-12,Credit Card,32980000,Completed
+1590,5,7,2023-01-28,Credit Card,88980000,Completed
+1591,15,7,2023-10-16,Credit Card,187460000,Completed
+1592,14,3,2023-07-21,Cash,31960000,Completed
+1593,25,7,2023-10-26,ZaloPay,65980000,Completed
+1594,2,3,2024-01-31,Credit Card,46980000,Completed
+1595,16,7,2023-12-14,Cash,142960000,Completed
+1596,13,4,2023-03-05,ZaloPay,28990000,Completed
+1597,26,8,2024-05-11,Credit Card,69990000,Completed
+1598,7,7,2023-09-19,Credit Card,92960000,Completed
+1599,13,3,2024-01-10,MoMo,76460000,Completed
+1600,27,3,2023-04-22,Cash,12990000,Completed
+1601,7,8,2024-04-27,ZaloPay,65980000,Completed
+1602,9,3,2023-11-10,Credit Card,75970000,Completed
+1603,17,8,2023-01-14,Cash,78970000,Completed
+1604,26,3,2023-01-31,Credit Card,8970000,Completed
+1605,27,8,2023-07-08,Cash,64960000,Completed
+1606,27,3,2024-05-08,MoMo,23990000,Completed
+1607,22,3,2023-10-29,Credit Card,88460000,Completed
+1608,12,8,2023-09-04,MoMo,12990000,Completed
+1609,17,7,2023-04-13,MoMo,4990000,Completed
+1610,26,4,2023-12-13,Cash,37460000,Completed
+1611,10,8,2023-02-16,MoMo,41460000,Completed
+1612,6,8,2024-05-04,Cash,17770000,Completed
+1613,25,8,2023-05-22,ZaloPay,2990000,Completed
+1614,24,8,2024-05-14,MoMo,47980000,Completed
+1615,16,3,2023-07-11,Credit Card,5380000,Completed
+1616,15,3,2023-11-24,MoMo,61450000,Completed
+1617,12,4,2024-01-07,MoMo,58950000,Completed
+1618,24,7,2023-12-04,Credit Card,42960000,Completed
+1619,7,7,2024-03-03,Credit Card,23990000,Completed
+1620,6,7,2024-02-21,Cash,79980000,Completed
+1621,23,4,2023-07-24,ZaloPay,490000,Completed
+1622,25,4,2023-03-17,Credit Card,28970000,Completed
+1623,7,4,2023-11-18,Cash,73960000,Completed
+1624,19,7,2023-10-09,MoMo,69970000,Completed
+1625,12,7,2024-04-14,Credit Card,97960000,Completed
+1626,16,4,2024-02-14,ZaloPay,33970000,Completed
+1627,16,7,2023-10-27,ZaloPay,57980000,Completed
+1628,20,3,2023-04-06,ZaloPay,16980000,Completed
+1629,29,3,2023-02-06,MoMo,13990000,Completed
+1630,14,8,2023-06-04,Credit Card,64960000,Completed
+1631,26,8,2023-03-30,MoMo,43750000,Completed
+1632,12,3,2024-03-18,Credit Card,44970000,Completed
+1633,2,3,2023-08-30,Cash,35470000,Completed
+1634,16,3,2023-03-09,ZaloPay,29960000,Completed
+1635,18,4,2023-07-25,Cash,36480000,Completed
+1636,18,7,2023-09-30,ZaloPay,96350000,Completed
+1637,10,4,2023-01-13,Credit Card,48370000,Completed
+1638,4,3,2023-01-24,ZaloPay,71970000,Completed
+1639,5,3,2023-11-10,ZaloPay,38970000,Completed
+1640,11,3,2023-04-06,Cash,77480000,Completed
+1641,7,3,2023-07-10,Credit Card,99950000,Completed
+1642,17,3,2023-09-12,ZaloPay,113960000,Completed
+1643,30,4,2023-04-20,Cash,10990000,Completed
+1644,9,8,2024-01-17,Credit Card,18990000,Completed
+1645,2,8,2023-04-29,ZaloPay,69990000,Completed
+1646,12,8,2023-10-27,Credit Card,117970000,Completed
+1647,15,4,2024-01-24,Cash,19970000,Completed
+1648,14,4,2024-05-28,Credit Card,69750000,Completed
+1649,22,3,2024-03-28,ZaloPay,81360000,Completed
+1650,8,3,2024-04-11,ZaloPay,33980000,Completed
+1651,10,3,2023-04-16,Cash,171940000,Completed
+1652,18,7,2024-06-14,ZaloPay,116950000,Completed
+1653,4,4,2023-10-21,Cash,128940000,Completed
+1654,22,4,2023-02-10,Cash,17470000,Completed
+1655,14,4,2024-05-12,Cash,35970000,Completed
+1656,11,7,2024-01-15,MoMo,10990000,Completed
+1657,16,8,2024-04-11,Credit Card,73960000,Completed
+1658,20,3,2023-02-09,Credit Card,21980000,Completed
+1659,21,8,2023-03-19,Credit Card,139980000,Completed
+1660,3,3,2023-10-10,ZaloPay,16980000,Completed
+1661,17,8,2023-04-03,Credit Card,8490000,Completed
+1662,25,3,2023-11-09,ZaloPay,38970000,Completed
+1663,24,4,2023-01-15,Credit Card,18970000,Completed
+1664,7,3,2024-04-26,Cash,55980000,Completed
+1665,14,8,2024-03-18,Cash,32990000,Completed
+1666,26,7,2023-06-02,ZaloPay,4990000,Completed
+1667,17,7,2023-07-26,Credit Card,50960000,Completed
+1668,15,7,2024-04-23,Credit Card,52980000,Completed
+1669,15,4,2024-05-16,Credit Card,105940000,Completed
+1670,23,8,2023-02-09,MoMo,74960000,Completed
+1671,4,4,2023-01-31,Credit Card,9980000,Completed
+1672,18,4,2024-01-01,Credit Card,150950000,Completed
+1673,26,7,2023-12-14,MoMo,168970000,Completed
+1674,10,8,2023-03-25,Credit Card,31980000,Completed
+1675,13,3,2023-09-20,MoMo,33970000,Completed
+1676,19,3,2023-09-24,MoMo,49980000,Completed
+1677,5,4,2023-03-20,Credit Card,27990000,Completed
+1678,16,3,2024-04-15,Cash,19480000,Completed
+1679,12,7,2024-06-01,Credit Card,125960000,Completed
+1680,26,8,2024-02-08,Credit Card,45980000,Completed
+1681,9,3,2023-12-30,Cash,191950000,Completed
+1682,17,4,2023-11-07,Credit Card,89970000,Completed
+1683,8,8,2023-03-22,Credit Card,31960000,Completed
+1684,8,8,2023-08-18,ZaloPay,10470000,Completed
+1685,16,7,2023-06-29,Credit Card,19480000,Completed
+1686,9,3,2023-09-02,MoMo,32990000,Completed
+1687,24,8,2024-05-16,Credit Card,86950000,Completed
+1688,9,8,2023-05-21,Credit Card,69360000,Completed
+1689,24,3,2023-11-03,Credit Card,92960000,Completed
+1690,10,3,2023-02-18,Credit Card,33980000,Completed
+1691,3,3,2024-01-30,Credit Card,8490000,Completed
+1692,6,7,2023-04-22,ZaloPay,780000,Completed
+1693,26,7,2023-12-26,Cash,99950000,Completed
+1694,20,7,2023-01-11,MoMo,14980000,Completed
+1695,11,7,2024-01-01,ZaloPay,10990000,Completed
+1696,27,3,2023-11-21,Cash,49980000,Completed
+1697,23,4,2024-06-30,Credit Card,51960000,Completed
+1698,30,8,2023-09-21,Cash,47980000,Completed
+1699,3,8,2023-10-12,Cash,24990000,Completed
+1700,28,7,2024-01-28,Cash,14980000,Completed
+1701,18,8,2023-01-04,Cash,127960000,Completed
+1702,11,3,2023-05-03,Cash,14980000,Completed
+1703,2,3,2024-01-25,Cash,82970000,Completed
+1704,23,8,2023-03-01,MoMo,84960000,Completed
+1705,10,8,2023-09-19,ZaloPay,47980000,Completed
+1706,29,3,2024-03-21,ZaloPay,35960000,Completed
+1707,28,4,2023-05-08,ZaloPay,43970000,Completed
+1708,12,3,2023-08-03,Cash,65980000,Completed
+1709,19,8,2023-06-06,ZaloPay,31960000,Completed
+1710,16,7,2023-06-08,ZaloPay,980000,Completed
+1711,3,8,2024-05-06,Credit Card,46950000,Completed
+1712,15,4,2023-12-02,ZaloPay,38970000,Completed
+1713,22,3,2024-05-09,Cash,139940000,Completed
+1714,16,3,2023-02-04,MoMo,23980000,Completed
+1715,22,7,2024-04-10,Credit Card,7490000,Completed
+1716,25,8,2023-04-30,MoMo,21980000,Completed
+1717,21,4,2023-12-30,ZaloPay,103970000,Completed
+1718,27,4,2023-02-23,Cash,88950000,Completed
+1719,25,4,2023-11-24,Cash,82970000,Completed
+1720,16,4,2024-02-07,Cash,141960000,Completed
+1721,29,7,2023-12-18,MoMo,23990000,Completed
+1722,3,4,2023-05-04,ZaloPay,43950000,Completed
+1723,5,8,2023-11-14,Credit Card,101470000,Completed
+1724,6,4,2023-04-13,Cash,21480000,Completed
+1725,12,7,2024-05-02,Credit Card,32990000,Completed
+1726,28,8,2024-06-08,MoMo,7490000,Completed
+1727,18,7,2023-09-20,Credit Card,78970000,Completed
+1728,15,4,2023-09-06,ZaloPay,28480000,Completed
+1729,7,4,2023-07-09,Cash,65970000,Completed
+1730,20,8,2024-02-20,ZaloPay,43760000,Completed
+1731,29,3,2023-03-03,Cash,63960000,Completed
+1732,25,3,2023-12-03,Cash,24980000,Completed
+1733,13,3,2023-09-03,ZaloPay,76950000,Completed
+1734,20,3,2023-11-22,Credit Card,140760000,Completed
+1735,16,3,2023-12-16,Credit Card,31960000,Completed
+1736,23,8,2023-04-18,Cash,131940000,Completed
+1737,23,8,2023-06-29,Credit Card,36470000,Completed
+1738,3,4,2023-06-08,Cash,75960000,Completed
+1739,14,4,2023-05-18,MoMo,68970000,Completed
+1740,17,3,2023-03-08,ZaloPay,28990000,Completed
+1741,26,3,2023-11-02,Credit Card,23990000,Completed
+1742,25,3,2024-04-26,Credit Card,23990000,Completed
+1743,16,4,2023-03-19,ZaloPay,64960000,Completed
+1744,27,7,2023-07-26,ZaloPay,32950000,Completed
+1745,30,8,2023-09-07,MoMo,31960000,Completed
+1746,24,3,2024-03-08,ZaloPay,49970000,Completed
+1747,9,7,2023-08-12,ZaloPay,10470000,Completed
+1748,9,4,2023-11-08,MoMo,139980000,Completed
+1749,12,4,2024-01-13,MoMo,48970000,Completed
+1750,9,4,2023-05-24,ZaloPay,37980000,Completed
+1751,9,7,2023-12-25,ZaloPay,28990000,Completed
+1752,23,4,2023-08-07,Cash,29970000,Completed
+1753,28,4,2024-01-29,Cash,20990000,Completed
+1754,3,3,2024-03-30,ZaloPay,29760000,Completed
+1755,2,3,2023-12-08,Credit Card,35480000,Completed
+1756,18,3,2024-03-16,Credit Card,47980000,Completed
+1757,28,4,2023-06-18,Credit Card,89960000,Completed
+1758,3,3,2024-01-22,Credit Card,28980000,Completed
+1759,14,8,2023-12-15,ZaloPay,14980000,Completed
+1760,6,4,2023-05-03,Cash,19480000,Completed
+1761,13,8,2023-01-04,ZaloPay,55460000,Completed
+1762,29,8,2024-01-17,Credit Card,60980000,Completed
+1763,26,8,2024-01-17,MoMo,66950000,Completed
+1764,5,4,2023-06-24,Credit Card,132950000,Completed
+1765,17,7,2023-10-23,Credit Card,37980000,Completed
+1766,7,8,2023-03-07,Credit Card,16990000,Completed
+1767,19,3,2024-06-21,Credit Card,10990000,Completed
+1768,9,4,2024-03-24,Credit Card,490000,Completed
+1769,7,8,2023-12-05,Cash,75970000,Completed
+1770,14,8,2024-04-28,Cash,45970000,Completed
+1771,16,8,2024-06-29,ZaloPay,25980000,Completed
+1772,16,8,2024-03-07,ZaloPay,10370000,Completed
+1773,19,8,2024-04-21,Cash,46470000,Completed
+1774,6,8,2024-02-20,MoMo,15980000,Completed
+1775,17,3,2023-03-18,Credit Card,80460000,Completed
+1776,23,7,2023-09-07,ZaloPay,2990000,Completed
+1777,24,4,2023-02-10,Credit Card,47980000,Completed
+1778,22,8,2023-05-07,MoMo,33470000,Completed
+1779,26,3,2023-03-20,ZaloPay,55950000,Completed
+1780,12,4,2023-02-27,Cash,31970000,Completed
+1781,14,4,2023-07-27,Cash,81960000,Completed
+1782,29,8,2024-03-31,Cash,85460000,Completed
+1783,19,7,2023-09-06,ZaloPay,45980000,Completed
+1784,29,4,2023-03-02,ZaloPay,103960000,Completed
+1785,21,7,2024-02-13,ZaloPay,21970000,Completed
+1786,4,3,2024-06-21,ZaloPay,16980000,Completed
+1787,12,3,2023-11-28,MoMo,28980000,Completed
+1788,11,4,2024-01-18,ZaloPay,29960000,Completed
+1789,1,8,2023-02-08,Cash,86970000,Completed
+1790,2,7,2023-10-07,ZaloPay,20990000,Completed
+1791,26,8,2023-01-12,ZaloPay,47980000,Completed
+1792,11,3,2023-03-30,MoMo,56470000,Completed
+1793,1,4,2023-05-16,Credit Card,63450000,Completed
+1794,12,8,2023-07-14,Credit Card,234950000,Completed
+1795,7,4,2024-05-17,Cash,13990000,Completed
+1796,16,7,2023-04-18,ZaloPay,33980000,Completed
+1797,24,7,2023-05-04,ZaloPay,47980000,Completed
+1798,20,4,2023-10-18,ZaloPay,14980000,Completed
+1799,8,4,2024-01-19,Credit Card,38970000,Completed
+1800,11,4,2024-06-21,ZaloPay,98950000,Completed
+1801,24,3,2023-10-30,ZaloPay,120950000,Completed
+1802,28,4,2024-06-27,Credit Card,12990000,Completed
+1803,11,4,2024-02-23,Credit Card,12990000,Completed
+1804,4,8,2024-02-04,ZaloPay,103950000,Completed
+1805,9,8,2024-04-06,Cash,102450000,Completed
+1806,9,8,2024-04-19,Credit Card,2990000,Completed
+1807,19,4,2023-05-22,MoMo,157950000,Completed
+1808,21,7,2024-03-12,Cash,37450000,Completed
+1809,19,8,2024-04-11,Cash,86960000,Completed
+1810,3,8,2023-06-09,Cash,160970000,Completed
+1811,18,4,2023-02-21,Credit Card,37960000,Completed
+1812,23,7,2023-09-28,ZaloPay,20990000,Completed
+1813,3,7,2023-03-25,Cash,35980000,Completed
+1814,6,4,2024-02-03,Credit Card,41460000,Completed
+1815,24,3,2023-10-23,Credit Card,61370000,Completed
+1816,19,8,2024-03-30,Cash,85960000,Completed
+1817,18,4,2023-05-10,ZaloPay,47980000,Completed
+1818,19,8,2024-01-26,MoMo,5980000,Completed
+1819,12,4,2023-07-08,MoMo,98760000,Completed
+1820,18,8,2024-04-29,Credit Card,21980000,Completed
+1821,3,4,2023-05-25,ZaloPay,74960000,Completed
+1822,12,7,2024-06-20,Cash,27980000,Completed
+1823,16,7,2023-01-20,MoMo,103960000,Completed
+1824,22,8,2023-12-22,MoMo,6470000,Completed
+1825,24,7,2023-12-14,ZaloPay,113960000,Completed
+1826,26,4,2023-09-26,Cash,55980000,Completed
+1827,17,3,2023-06-25,Credit Card,132960000,Completed
+1828,5,7,2024-06-25,ZaloPay,27480000,Completed
+1829,26,8,2023-12-12,MoMo,24990000,Completed
+1830,25,7,2023-01-27,ZaloPay,2990000,Completed
+1831,11,4,2024-05-04,Credit Card,10990000,Completed
+1832,4,7,2023-12-12,MoMo,28990000,Completed
+1833,7,4,2023-08-09,ZaloPay,102970000,Completed
+1834,22,8,2023-04-19,MoMo,9980000,Completed
+1835,6,8,2024-03-11,MoMo,7490000,Completed
+1836,12,4,2024-02-12,ZaloPay,140950000,Completed
+1837,25,8,2023-06-29,Cash,55470000,Completed
+1838,10,4,2023-03-02,MoMo,90450000,Completed
+1839,19,3,2023-05-22,Credit Card,24480000,Completed
+1840,8,3,2024-01-31,Cash,129950000,Completed
+1841,3,8,2024-03-14,ZaloPay,47450000,Completed
+1842,25,4,2024-01-31,ZaloPay,61970000,Completed
+1843,16,4,2024-06-09,ZaloPay,113950000,Completed
+1844,27,8,2023-01-01,MoMo,48760000,Completed
+1845,3,3,2024-03-15,Cash,120960000,Completed
+1846,9,3,2023-11-10,Cash,95760000,Completed
+1847,30,8,2024-02-19,Credit Card,4990000,Completed
+1848,25,8,2024-02-22,Cash,70970000,Completed
+1849,30,7,2024-06-06,Cash,20480000,Completed
+1850,22,3,2024-03-03,Credit Card,12990000,Completed
+1851,22,8,2024-01-13,Cash,24480000,Completed
+1852,11,7,2024-06-09,ZaloPay,78970000,Completed
+1853,26,8,2023-05-30,MoMo,28980000,Completed
+1854,4,7,2024-06-07,Credit Card,16990000,Completed
+1855,21,4,2023-09-11,Credit Card,49980000,Completed
+1856,12,8,2023-10-29,Credit Card,290950000,Completed
+1857,26,7,2023-03-21,ZaloPay,44970000,Completed
+1858,2,8,2023-06-08,MoMo,15960000,Completed
+1859,30,7,2024-05-04,Credit Card,30960000,Completed
+1860,21,3,2024-02-20,Cash,76960000,Completed
+1861,28,7,2023-11-05,MoMo,23990000,Completed
+1862,3,8,2024-01-04,MoMo,36480000,Completed
+1863,5,8,2024-06-15,ZaloPay,103960000,Completed
+1864,9,7,2023-12-09,Cash,101460000,Completed
+1865,27,7,2024-06-01,Cash,69990000,Completed
+1866,11,3,2024-03-13,Credit Card,21770000,Completed
+1867,17,3,2024-01-26,ZaloPay,182960000,Completed
+1868,17,3,2024-02-07,ZaloPay,27980000,Completed
+1869,8,7,2023-08-30,MoMo,62960000,Completed
+1870,12,4,2023-07-26,Credit Card,23470000,Completed
+1871,13,4,2024-04-23,ZaloPay,41970000,Completed
+1872,28,7,2023-06-05,Credit Card,79980000,Completed
+1873,6,7,2024-05-09,Cash,28990000,Completed
+1874,22,3,2024-06-09,ZaloPay,89940000,Completed
+1875,11,3,2023-03-28,Cash,36980000,Completed
+1876,26,4,2023-03-29,Credit Card,61960000,Completed
+1877,8,3,2024-06-03,MoMo,30970000,Completed
+1878,6,4,2023-06-18,Cash,53960000,Completed
+1879,27,4,2023-07-13,Credit Card,55980000,Completed
+1880,10,4,2023-06-25,MoMo,55470000,Completed
+1881,24,8,2023-06-07,Credit Card,16990000,Completed
+1882,25,8,2023-08-26,Credit Card,55980000,Completed
+1883,16,7,2024-06-11,ZaloPay,27990000,Completed
+1884,27,3,2023-07-30,Cash,92960000,Completed
+1885,11,3,2024-06-04,Credit Card,49960000,Completed
+1886,16,7,2024-04-10,ZaloPay,14980000,Completed
+1887,14,4,2024-06-09,MoMo,153450000,Completed
+1888,27,4,2023-05-03,MoMo,83960000,Completed
+1889,2,7,2023-01-04,Cash,49970000,Completed
+1890,6,4,2024-01-08,Credit Card,47980000,Completed
+1891,14,4,2023-07-13,Credit Card,55980000,Completed
+1892,27,3,2023-01-27,ZaloPay,65470000,Completed
+1893,2,7,2023-10-10,Credit Card,4990000,Completed
+1894,28,3,2023-11-10,ZaloPay,15980000,Completed
+1895,25,8,2023-01-10,ZaloPay,18990000,Completed
+1896,25,3,2023-09-07,ZaloPay,47980000,Completed
+1897,7,3,2023-11-22,ZaloPay,23990000,Completed
+1898,8,8,2024-03-11,Credit Card,25980000,Completed
+1899,10,4,2024-02-01,MoMo,184950000,Completed
+1900,20,7,2023-01-28,Cash,137940000,Completed
+1901,29,7,2023-01-11,Cash,68970000,Completed
+1902,19,3,2024-03-05,Credit Card,33970000,Completed
+1903,23,8,2024-05-22,Cash,13990000,Completed
+1904,27,3,2023-01-31,Credit Card,150950000,Completed
+1905,30,3,2023-01-27,Cash,4990000,Completed
+1906,7,7,2023-09-03,Credit Card,75970000,Completed
+1907,12,7,2024-05-13,Cash,18990000,Completed
+1908,13,7,2023-01-17,Credit Card,47480000,Completed
+1909,4,7,2023-11-25,MoMo,69990000,Completed
+1910,11,3,2024-01-31,Cash,66960000,Completed
+1911,15,3,2023-01-02,Credit Card,25980000,Completed

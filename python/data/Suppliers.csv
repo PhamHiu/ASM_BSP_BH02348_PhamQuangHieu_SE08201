@@ -1,0 +1,11 @@
+SupplierID,SupplierName,ContactName,Phone,Email,Address,Status
+1,"Samsung Display Co., Ltd.",Kim Tae-Ho,+82-41-520-1001,contact@samsungdisplay.com,"Asan, South Korea",Active
+2,"Samsung SDI Co., Ltd.",Lee Soo-Jin,+82-41-560-2002,battery@samsungsdi.com,"Cheonan, South Korea",Active
+3,Samsung Electro-Mechanics,Park Jun-Ho,+82-31-210-3003,camera@samsungem.com,"Suwon, South Korea",Active
+4,SK Hynix Inc.,Choi Min-Jae,+82-31-560-4004,memory@skhynix.com,"Icheon, South Korea",Active
+5,Qualcomm Technologies Inc.,David Reyes,+1-858-587-1121,components@qualcomm.com,"San Diego, USA",Active
+6,Intel Corporation,Sarah Mitchell,+1-408-765-8080,supply@intel.com,"Santa Clara, USA",Active
+7,"Foxconn Precision Vietnam Co., Ltd.",Tran Quoc Bao,0204-3822-101,order@foxconn-vn.com,"Bac Giang, Vietnam",Active
+8,"LG Innotek Co., Ltd.",Jung Hae-Won,+82-2-3777-5005,module@lginnotek.com,"Seoul, South Korea",Active
+9,"Dongbu Appliance Components Co., Ltd.",Han Ji-Woo,+82-62-950-6006,,"Gwangju, South Korea",Active
+10,VinaTech Components JSC,Nguyen Van Phu,0222-3654-107,sales@vinatech-vn.com,"Bac Ninh, Vietnam",Active
