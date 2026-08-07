@@ -2,25 +2,25 @@
 """
 01_demand_supply_forecast.py
 ---------------------------------------------------------------
-VAN DE 1: RUI RO LECH PHA CUNG CAU (Demand-Supply Mismatch)
+PROBLEM 1: DEMAND-SUPPLY MISMATCH RISK
 ---------------------------------------------------------------
-Boi canh: Du bao nhu cau yeu kem -> ton kho san pham it ban chay, thieu
-hang san pham dang "hot" -> bao mon loi nhuan.
+Context: Poor demand forecasting -> slow-moving inventory, stockouts for
+"hot" products -> profit erosion.
 
-Nguon du lieu that su dung:
-    - Orders.csv, OrderDetails.csv  (lich su ban hang thuc te 2023-2024)
-    - Products.csv                  (StockQuantity, ReorderLevel hien tai)
-    - Category.csv                  (nhom nganh hang)
+Actual data sources used:
+    - Orders.csv, OrderDetails.csv  (actual sales history 2023-2024)
+    - Products.csv                  (current StockQuantity, ReorderLevel)
+    - Category.csv                  (product categories)
 
-Muc tieu: Du bao SAN LUONG BAN (demand) THEO THANG cho tung SAN PHAM trong
-thang tiep theo, sau do doi chieu voi StockQuantity + ReorderLevel hien tai
-de phat hien: (a) san pham co nguy co THIEU HANG (demand du bao > ton kho
-kha dung), (b) san pham co nguy co TON KHO U DONG (demand du bao rat thap
-so voi ton kho hien tai).
+Objective: Forecast SALES VOLUME (demand) BY MONTH for each PRODUCT in
+the next month, then compare with current StockQuantity + ReorderLevel
+to detect: (a) products at risk of UNDERSTOCK (forecasted demand > available
+stock), (b) products at risk of OVERSTOCK (forecasted demand very low
+compared to current stock).
 
-Thuat toan su dung (theo yeu cau): Linear Regression, Random Forest
-Regressor, XGBoost Regressor -> so sanh hieu nang -> chon mo hinh tot nhat
-de xuat ban dau ra cuoi cung.
+Algorithms used (per requirements): Linear Regression, Random Forest
+Regressor, XGBoost Regressor -> compare performance -> select best model
+to generate the final output.
 """
 
 import numpy as np
@@ -35,37 +35,40 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from xgboost import XGBRegressor
 
-DATA_DIR = "data"
-OUT_DIR = "outputs"
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "..", "DB_final", "Samsung_Store_Database")
+OUT_DIR = os.path.join(SCRIPT_DIR, "outputs")
 IMG_DIR = f"{OUT_DIR}/images"
 REPORT_DIR = f"{OUT_DIR}/report_csv"
-import os
+
 os.makedirs(IMG_DIR, exist_ok=True)
 os.makedirs(REPORT_DIR, exist_ok=True)
 pd.set_option("display.width", 140)
 
 # =================================================================
-# BUOC 1: TIEN XU LY VA LAM SACH DU LIEU (Data Preprocessing)
+# STEP 1: DATA PREPROCESSING AND CLEANING
 # =================================================================
 orders = pd.read_csv(f"{DATA_DIR}/Orders.csv")
 order_details = pd.read_csv(f"{DATA_DIR}/OrderDetails.csv")
 products = pd.read_csv(f"{DATA_DIR}/Products.csv")
 category = pd.read_csv(f"{DATA_DIR}/Categories.csv")
 
-# 1.1 Kiem tra & xu ly gia tri thieu / trung lap
+# 1.1 Check & handle missing/duplicate values
 print("=== Checking for missing data ===")
 print(orders.isna().sum()[orders.isna().sum() > 0])
 print(order_details.isna().sum()[order_details.isna().sum() > 0])
 print("Duplicate rows in Orders:", orders.duplicated().sum())
 print("Duplicate rows in OrderDetails:", order_details.duplicated().sum())
-# Ghi chu: theo DATA_ISSUES.md, phan du lieu ban hang (Orders/OrderDetails)
-# KHONG chua loi co y -> chi can kiem tra phong ngua, khong can sua nhieu.
+# Note: According to DATA_ISSUES.md, the sales data (Orders/OrderDetails)
+# DOES NOT contain intentional errors -> just check for precaution, no major fixes needed.
 
-# 1.2 Chuan hoa kieu du lieu ngay thang
+# 1.2 Standardize datetime data types
 orders["OrderDate"] = pd.to_datetime(orders["OrderDate"], errors="coerce")
 orders = orders.dropna(subset=["OrderDate"])
 
-# 1.3 Ghep du lieu ban hang voi san pham + danh muc
+# 1.3 Merge sales data with products + categories
 sales = order_details.merge(
     orders[["OrderID", "OrderDate"]], on="OrderID", how="inner"
 ).merge(
@@ -76,19 +79,19 @@ sales = order_details.merge(
     category[["CategoryID", "CategoryName"]], on="CategoryID", how="left"
 )
 
-# 1.4 Tao truc thoi gian THANG (Year-Month) - don vi phan tich du bao
+# 1.4 Create MONTH time axis (Year-Month) - forecasting analysis unit
 sales["YearMonth"] = sales["OrderDate"].dt.to_period("M")
 
-# 1.5 Tong hop nhu cau (demand) theo Thang x San pham
+# 1.5 Aggregate demand by Month x Product
 monthly_demand = (
     sales.groupby(["ProductID", "ProductName", "CategoryID", "CategoryName", "YearMonth"])
     .agg(QuantitySold=("Quantity", "sum"), Revenue=("SubTotal", "sum"))
     .reset_index()
 )
 
-# 1.6 Dam bao du lieu day du theo LUOI thoi gian (dien 0 cho thang khong ban
-# duoc de mo hinh hoc dung xu huong "khong ban duoc", tranh sai lech do
-# thieu quan sat)
+# 1.6 Ensure complete data across time GRID (fill 0 for months with no sales
+# so the model learns the "no sales" trend correctly, avoiding bias from
+# missing observations)
 all_months = pd.period_range(
     monthly_demand["YearMonth"].min(), monthly_demand["YearMonth"].max(), freq="M"
 )
@@ -107,9 +110,8 @@ monthly_demand_full[["QuantitySold", "Revenue"]] = monthly_demand_full[
     ["QuantitySold", "Revenue"]
 ].fillna(0)
 
-# 1.7 Feature engineering: dac trung thoi gian + do tre (lag) + trung binh
-# truot (rolling mean) - cac dac trung kinh dien cho bai toan du bao chuoi
-# thoi gian ban hang.
+# 1.7 Feature engineering: time features + lags + rolling mean
+# - classic features for sales time series forecasting problems.
 monthly_demand_full = monthly_demand_full.sort_values(["ProductID", "YearMonth"])
 monthly_demand_full["Month"] = monthly_demand_full["YearMonth"].dt.month
 monthly_demand_full["Quarter"] = monthly_demand_full["YearMonth"].dt.quarter
@@ -130,7 +132,7 @@ monthly_demand_full["RollingMean_3"] = (
     .reset_index(level=0, drop=True)
 )
 
-# Gop them gia ban hien tai va ma danh muc (encode)
+# Add current sale price and category code (to be encoded)
 monthly_demand_full = monthly_demand_full.merge(
     products[["ProductID", "CurrentSalePrice", "CurrentAssemblyCost", "StockQuantity", "ReorderLevel"]],
     on="ProductID", how="left",
@@ -154,10 +156,10 @@ target_col = "QuantitySold"
 print(f"\n=== Training data after preprocessing: {model_df.shape[0]} rows ===")
 
 # =================================================================
-# BUOC 2: XAY DUNG & HUAN LUYEN MO HINH (Model Training)
+# STEP 2: MODEL BUILDING & TRAINING
 # =================================================================
-# Chia train/test THEO THOI GIAN (khong shuffle ngau nhien) -> mo phong
-# dung boi canh du bao thuc te: du bao thang sau dua tren du lieu qua khu.
+# Chronological train/test split (no random shuffle) -> simulates
+# real-world forecasting context: predict next month based on past data.
 split_month = model_df["MonthIndex"].quantile(0.8)
 train_df = model_df[model_df["MonthIndex"] <= split_month]
 test_df = model_df[model_df["MonthIndex"] > split_month]
@@ -173,7 +175,7 @@ results = {}
 predictions = {}
 for name, model in models.items():
     model.fit(X_train, y_train)
-    y_pred = np.clip(model.predict(X_test), 0, None)  # nhu cau khong am
+    y_pred = np.clip(model.predict(X_test), 0, None)  # non-negative demand
     predictions[name] = y_pred
     results[name] = {
         "MAE": mean_absolute_error(y_test, y_pred),
@@ -190,9 +192,9 @@ best_model = models[best_model_name]
 print(f"\n>>> Selected model for deployment: {best_model_name}")
 
 # =================================================================
-# BUOC 3: TRICH XUAT DAU RA & DU BAO THANG TIEP THEO
+# STEP 3: OUTPUT EXTRACTION & NEXT MONTH FORECAST
 # =================================================================
-# Du bao cho THANG KE TIEP (ngay sau thang cuoi cung co du lieu that)
+# Forecast for NEXT MONTH (right after the last month with actual data)
 latest = (
     monthly_demand_full.sort_values("YearMonth")
     .groupby("ProductID")
@@ -216,7 +218,7 @@ latest["Forecast_NextMonth_Demand"] = np.clip(
     best_model.predict(next_month_forecast), 0, None
 ).round(1)
 
-# Doi chieu voi ton kho hien tai -> phan loai rui ro cung cau
+# Compare with current inventory -> classify supply-demand risks
 def classify_risk(row):
     if row["Forecast_NextMonth_Demand"] > row["StockQuantity"]:
         return "UNDERSTOCK RISK"
@@ -252,16 +254,16 @@ print("\n=== RISK CLASSIFICATION ===")
 print(final_output["Risk_Classification"].value_counts())
 
 # =================================================================
-# BUOC 4: TRUC QUAN HOA (luu file anh - se duoc chen thu cong vao bao cao)
+# STEP 4: VISUALIZATION (save images - to be manually inserted into report)
 # =================================================================
 
-# [HINH P1-1] Total Monthly Revenue Trend (Historical vs Forecast)
-# Tinh tong doanh thu qua cac thang
+# [FIGURE P1-1] Total Monthly Revenue Trend (Historical vs Forecast)
+# Calculate total revenue across months
 monthly_rev = monthly_demand_full.copy()
 monthly_rev["Revenue"] = monthly_rev["QuantitySold"] * monthly_rev["CurrentSalePrice"]
 trend = monthly_rev.groupby("MonthIndex")["Revenue"].sum().reset_index()
 
-# Tinh tong doanh thu du bao cho thang tiep theo
+# Calculate total forecasted revenue for next month
 next_month_index = trend["MonthIndex"].max() + 1
 total_forecast_rev = final_output["Forecast_Revenue"].sum()
 trend_forecast = pd.DataFrame([{"MonthIndex": next_month_index, "Revenue": total_forecast_rev}])
@@ -280,7 +282,7 @@ plt.tight_layout()
 plt.savefig(f"{IMG_DIR}/P1_1_revenue_trend.png", dpi=150)
 plt.close()
 
-# [HINH P1-2] Current vs Predicted Inventory
+# [FIGURE P1-2] Current vs Predicted Inventory
 top_10_stock = final_output.head(10).copy()
 top_10_stock["Predicted_Inventory"] = np.maximum(0, top_10_stock["StockQuantity"] - top_10_stock["Forecast_NextMonth_Demand"])
 x = np.arange(len(top_10_stock))
@@ -296,7 +298,7 @@ plt.tight_layout()
 plt.savefig(f"{IMG_DIR}/P1_2_stock_vs_demand.png", dpi=150)
 plt.close()
 
-# [HINH P1-3] Predicted Sales Next Month
+# [FIGURE P1-3] Predicted Sales Next Month
 top_revenue = final_output.sort_values("Forecast_Revenue", ascending=False).head(10)
 fig, ax = plt.subplots(figsize=(10, 6))
 for _, row in top_revenue.iterrows():
@@ -308,7 +310,7 @@ plt.tight_layout()
 plt.savefig(f"{IMG_DIR}/P1_3_forecast_revenue.png", dpi=150)
 plt.close()
 
-# [HINH P1-4] Predicted profit Next Month
+# [FIGURE P1-4] Predicted profit Next Month
 top_profit = final_output.sort_values("Forecast_Profit", ascending=False).head(10)
 fig, ax = plt.subplots(figsize=(10, 6))
 for _, row in top_profit.iterrows():

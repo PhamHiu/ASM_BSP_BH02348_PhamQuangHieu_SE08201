@@ -9,7 +9,7 @@ import os
 np.random.seed(42)
 
 # ==========================================
-# 1. SETUP THƯ MỤC
+# 1. DIRECTORY SETUP
 # ==========================================
 DATA_DIR = r"C:\Users\AQUA\Desktop\School\Part_IV\BusinessSP_Mr.Dong\ASM\DB_final\Samsung_Store_Database"
 OUT_DIR = r"C:\Users\AQUA\Desktop\School\Part_IV\BusinessSP_Mr.Dong\ASM\python\outputs"
@@ -20,54 +20,54 @@ os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(IMG_DIR, exist_ok=True)
 os.makedirs(REPORT_DIR, exist_ok=True)
 
-# Bảng thông số kỹ thuật (Manufacturer Specs)
+# Manufacturer Specs table
 specs_csv_path = os.path.join(DATA_DIR, "machine_specs.csv")
 if not os.path.exists(specs_csv_path):
-    raise FileNotFoundError(f"Không tìm thấy file {specs_csv_path}")
+    raise FileNotFoundError(f"File not found: {specs_csv_path}")
 machine_specs = pd.read_csv(specs_csv_path).set_index("MachineType").to_dict('index')
 
-print("=== 1. KIỂM TRA/TẠO DỮ LIỆU CẢM BIẾN TRONG DATABASE ===")
+print("=== 1. CHECK/CREATE SENSOR DATA IN DATABASE ===")
 csv_path = os.path.join(DATA_DIR, "IoT_Sensor_Data.csv")
 
 if not os.path.exists(csv_path):
-    raise FileNotFoundError(f"Không tìm thấy file dữ liệu tại {csv_path}. Vui lòng kiểm tra lại thư mục Database.")
+    raise FileNotFoundError(f"Data file not found at {csv_path}. Please check Database directory.")
 
-# Load dữ liệu đầu vào làm nguồn cho Model (Đúng cấu trúc bài toán)
+# Load input data as source for Model (Matches problem structure)
 df = pd.read_csv(csv_path)
-print(f"-> Đã tải nguồn dữ liệu (Input) thành công: {df.shape[0]} dòng.")
+print(f"-> Successfully loaded input data source: {df.shape[0]} rows.")
 
 
 # ==========================================
-# 2. TIỀN XỬ LÝ & ĐÀO TẠO MÔ HÌNH
+# 2. PREPROCESSING & MODEL TRAINING
 # ==========================================
-print("\n=== 2. HUẤN LUYỆN RANDOM FOREST ===")
-# Mã hóa biến loại máy (One-hot encoding)
+print("\n=== 2. RANDOM FOREST TRAINING ===")
+# Encode machine type variable (One-hot encoding)
 df_encoded = pd.get_dummies(df, columns=['MachineType'])
 
 features = [c for c in df_encoded.columns if c not in ['MachineID', 'Failure_Status']]
 X = df_encoded[features]
 y = df_encoded['Failure_Status']
 
-# Tách Train/Test
+# Train/Test Split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 rf_model = RandomForestClassifier(n_estimators=100, max_depth=10, class_weight='balanced', random_state=42)
 rf_model.fit(X_train, y_train)
 y_pred = rf_model.predict(X_test)
 
-print("--- Báo cáo Độ chính xác (Classification Report) ---")
+print("--- Classification Report ---")
 print(classification_report(y_test, y_pred))
 
 
 # ==========================================
-# 3. TRÍCH XUẤT BÁO CÁO TÌNH TRẠNG MÁY MÓC
+# 3. EXTRACT MACHINE STATUS REPORT
 # ==========================================
-print("\n=== 3. XUẤT BÁO CÁO TÌNH TRẠNG ===")
+print("\n=== 3. EXPORT STATUS REPORT ===")
 
-# Lấy xác suất dự đoán hỏng trên toàn bộ tập dữ liệu
+# Get failure prediction probability on entire dataset
 df['Predict_Failure_Prob'] = rf_model.predict_proba(X)[:, 1]
 
-# --- Fix 2: Phân loại Risk Level 4 cấp ---
+# --- Fix 2: Classify Risk Level into 4 tiers ---
 def get_status(row):
     if row['Failure_Status'] == 1:
         return "Failed"
@@ -80,7 +80,7 @@ def get_status(row):
 
 df['Current_Status'] = df.apply(get_status, axis=1)
 
-# --- Tính trung bình và độ lệch chuẩn theo từng loại máy (Fleet Stats) ---
+# --- Calculate mean and standard deviation by machine type (Fleet Stats) ---
 sensor_cols = ['Temperature_C', 'Vibration_mm_s', 'Voltage_V', 'Current_A',
                'Power_Consumption_kWh', 'Runtime_Hours']
 
@@ -89,7 +89,7 @@ fleet_stats.columns = ['MachineType'] + [f'{col}_{stat}' for col, stat in
                                           fleet_stats.columns[1:]]
 fleet_lookup = fleet_stats.set_index('MachineType').to_dict('index')
 
-# --- Fix 1: Hệ thống Alert Reason 2 tầng ---
+# --- Fix 1: 2-tier Alert Reason System ---
 alert_reasons = []
 top_risk_factors = []
 
@@ -103,9 +103,9 @@ for _, row in df.iterrows():
     spec = machine_specs.get(m_type)
     fleet = fleet_lookup.get(m_type, {})
     reasons = []
-    anomaly_scores = {}  # Để tính Top Risk Factor
+    anomaly_scores = {}  # To calculate Top Risk Factor
 
-    # === Tầng 1: So sánh Specs cứng nhà sản xuất ===
+    # === Tier 1: Compare against Manufacturer Hard Specs ===
     if spec:
         if row['Temperature_C'] > spec['Max_Temp_C']:
             reasons.append(f"Temp {row['Temperature_C']:.1f}C > Spec Max {spec['Max_Temp_C']}")
@@ -120,7 +120,7 @@ for _, row in df.iterrows():
         if row['Current_A'] < spec['Min_Current_A']:
             reasons.append(f"Curr {row['Current_A']:.1f} < Spec Min {spec['Min_Current_A']}")
 
-    # === Tầng 2: So sánh với trung bình Fleet (nếu Tầng 1 không tìm thấy) ===
+    # === Tier 2: Compare against Fleet average (if Tier 1 not found) ===
     if not reasons and fleet:
         for col in sensor_cols:
             mean_key = f'{col}_mean'
@@ -140,7 +140,7 @@ for _, row in df.iterrows():
                     reasons.append(f"{col} {row[col]:.1f} < fleet avg-1.5s ({threshold_low:.1f})")
                     anomaly_scores[col] = z_score
 
-    # Nếu vẫn không có lý do, gán dựa trên xác suất AI
+    # If still no reason, assign based on AI probability
     if not reasons:
         reasons.append(f"AI Prob {row['Predict_Failure_Prob']:.1%} - Combined sensor anomaly pattern")
 
@@ -151,7 +151,7 @@ for _, row in df.iterrows():
         top_factor = max(anomaly_scores, key=anomaly_scores.get)
         top_risk_factors.append(f"{top_factor} ({row[top_factor]:.1f}, z={anomaly_scores[top_factor]:.1f})")
     elif spec:
-        # Tính z-score dựa trên khoảng cách đến ngưỡng specs
+        # Calculate z-score based on distance to specs threshold
         spec_distances = {}
         if 'Max_Temp_C' in spec:
             spec_distances['Temperature_C'] = row['Temperature_C'] / spec['Max_Temp_C']
@@ -168,18 +168,18 @@ for _, row in df.iterrows():
 df['Alert_Reason_vs_Specs'] = alert_reasons
 df['Top_Risk_Factor'] = top_risk_factors
 
-# Sắp xếp: Failed > Critical_Risk > Needs_Maintenance > Normal
+# Sort: Failed > Critical_Risk > Needs_Maintenance > Normal
 status_order = {'Failed': 0, 'Critical_Risk': 1, 'Needs_Maintenance': 2, 'Normal': 3}
 df['_sort'] = df['Current_Status'].map(status_order)
 df = df.sort_values(by=['_sort', 'Predict_Failure_Prob'], ascending=[True, False])
 df = df.drop(columns=['_sort'])
 
-# Lưu ra CSV
+# Save to CSV
 output_csv = os.path.join(REPORT_DIR, "P2_Machine_Status_Report.csv")
 df.to_csv(output_csv, index=False)
 
-# Thống kê
-print(f"-> Đã xuất báo cáo tình trạng cho {df.shape[0]} máy ra file: {output_csv}")
+# Statistics
+print(f"-> Exported status report for {df.shape[0]} machines to file: {output_csv}")
 print(f"   Failed: {(df['Current_Status']=='Failed').sum()}")
 print(f"   Critical_Risk: {(df['Current_Status']=='Critical_Risk').sum()}")
 print(f"   Needs_Maintenance: {(df['Current_Status']=='Needs_Maintenance').sum()}")
@@ -187,19 +187,19 @@ print(f"   Normal: {(df['Current_Status']=='Normal').sum()}")
 print(f"   Multiple_Anomalies count: {(df['Alert_Reason_vs_Specs']=='Multiple_Anomalies').sum()}")
 
 # ==========================================
-# 4. TRỰC QUAN HÓA (VISUALIZATION)
+# 4. VISUALIZATION
 # ==========================================
-print("\n=== 4. VẼ BIỂU ĐỒ (VISUALIZATION) ===")
+print("\n=== 4. VISUALIZATION ===")
 
 import matplotlib
-matplotlib.use('Agg') # Đảm bảo không hiển thị UI lỗi
+matplotlib.use('Agg') # Ensure no UI error display
 
 # 4.1 Feature Importance Chart
 importances = rf_model.feature_importances_
 feature_imp = pd.DataFrame({'Feature': features, 'Importance': importances})
 feature_imp = feature_imp.sort_values('Importance', ascending=True)
 
-# Xuất dữ liệu Feature Importance ra file CSV cho Power BI
+# Export Feature Importance data to CSV file for Power BI
 csv_path_imp = os.path.join(REPORT_DIR, "P2_Feature_Importance.csv")
 feature_imp.sort_values('Importance', ascending=False).to_csv(csv_path_imp, index=False)
 
@@ -224,5 +224,5 @@ plt.tight_layout()
 plt.savefig(os.path.join(IMG_DIR, "P2_Failure_Probability_Distribution.png"), dpi=150)
 plt.close()
 
-print(f"-> Đã xuất 2 biểu đồ (Tiếng Anh) vào thư mục: {IMG_DIR}")
-print("\n[HOÀN TẤT] Module 2 đã hoàn thành xuất sắc.")
+print(f"-> Exported 2 charts to directory: {IMG_DIR}")
+print("\n[COMPLETE] Module 2 finished successfully.")
