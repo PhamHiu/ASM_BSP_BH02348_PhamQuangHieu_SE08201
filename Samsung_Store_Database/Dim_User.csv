@@ -1,9 +1,0 @@
-UserID,Username,PasswordHash,FullName,Email,Phone,RoleID,CreatedAt,Status
-1,admin,$2b$12$hash_admin,Nguyen Van An,admin@samsung-store.vn,0901000001,1,2023-01-10,Active
-2,mgr_tung,$2b$12$hash_tung,Tran Duc Tung,tung@samsung-store.vn,0901000002,2,2023-01-15,Active
-3,sales_linh,$2b$12$hash_linh,Pham Thi Linh,linh@samsung-store.vn,0901000003,3,2023-02-01,Active
-4,sales_hung,$2b$12$hash_hung,Le Van Hung,hung@samsung-store.vn,0901000004,3,2023-02-01,Active
-5,wh_nam,$2b$12$hash_nam,Vo Minh Nam,nam@samsung-store.vn,0901000005,4,2023-03-01,Active
-6,analyst_mai,$2b$12$hash_mai,Nguyen Thi Mai,mai@samsung-store.vn,0901000006,5,2023-03-15,Active
-7,sales_quang,$2b$12$hash_quang,Hoang Van Quang,quang@samsung-store.vn,0901000007,3,2023-04-01,Active
-8,sales_ha,$2b$12$hash_ha,Bui Thi Ha,ha@samsung-store.vn,0901000008,3,2023-05-01,Active

@@ -1,6 +1,0 @@
-SupplierID,SupplierName,ContactName,Phone,Email,Address,Status
-1,Samsung Electronics VN,Park Ji Sung,0281000001,partner@samsung.com,"Hanoi, Vietnam",Active
-2,FPT Distribution,Nguyen Hoang,0281000002,supply@fpt.com,"Ho Chi Minh City, Vietnam",Active
-3,Synnex FPT,Tran Minh,0281000003,order@synnex.vn,"Da Nang, Vietnam",Active
-4,DigiWorld Corp,Le Phuong,0281000004,info@digiworld.com.vn,"Hanoi, Vietnam",Active
-5,Samsung Regional HQ,Kim Young Jin,0281000005,regional@samsung.com,Singapore,Active
